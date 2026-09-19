@@ -1,0 +1,200 @@
+# NYC Commission on Human Rights: Source of Income Discrimination
+<!-- doc_id: cchr_soi_guidance | issuer: NYC Commission on Human Rights | source_url: https://www.nyc.gov/site/cchr/media/source-of-income.page | effective_from: 2023-03-01 | effective_to: None | supersedes: None | superseded_by: None | visibility: renter,landlord,staff | version: 1 -->
+
+## What is discrimination based on lawful source of income?
+
+Discrimination based on lawful source of income is the illegal practice by landlords, owners, and real estate brokers of refusing to rent to current or prospective tenants seeking to pay for housing with housing assistance vouchers, subsidies, or other forms of public assistance. It is unlawful for landlords and brokers to publish any advertisements, including online or print, that indicate a refusal to accept these programs, or express a preference for non-voucher holders.
+
+Lawful source of income includes many kinds of subsidies or assistance from federal, state, or local public sources such as Section 8, Supplemental Security Income (SSI), HIV/AIDS Services Administration (HASA), CityFHEPS, and G.I. Bill Housing Allowances, among others.
+
+Source of income discrimination has been illegal in New York City since 2008. Most New York City rental properties are subject to the NYC Human Rights Law's source of income protections, regardless of number of units in the property. (Exceptions apply to small owner-occupied buildings and units that are not publicly advertised.)
+
+Download our multilingual Lawful Source of Income Fact Sheet for a quick overview of the law and how to get help from the Commission.
+
+## How does the Commission fight discrimination based on lawful source of income?
+
+In recent years, the Commission has significantly increased its efforts to combat source of income discrimination through aggressively investigating and prosecuting landlords and brokers of various sizes citywide who refuse to rent to tenants who pay rent with housing vouchers and other types of housing assistance. The Commission is also obtaining immediate relief from discrimination through emergency interventions, proactively fighting discrimination through testing and investing in public outreach and education. The Commission has had a source of income unit within the Law Enforcement Bureau since 2018, focused on addressing and combating voucher discrimination in housing.
+
+The Commission has created a new mechanism to respond more quickly to urgent source of income discrimination cases. Where someone has faced a denial of housing by a landlord or broker because they use housing assistance vouchers or subsidy, the Commission's Source of Income Unit contacts the landlord or broker to educate them about source of income discrimination. These contacts and interactions can result in that person securing or maintaining housing.
+
+The Commission has resolved hundreds of source of income cases through emergency interventions since 2018, resulting in voucher holders preserving their vouchers, accessing housing, and/or maintaining housing.
+
+## Investigations, testing and public education
+
+Since 2018, the Commission has filed 176 cases of discrimination based on lawful source of income against landlords and brokers across the city.
+
+Since 2014, the Commission has obtained over $780,000 in damages and penalties for complainants who have faced source of income discrimination.
+
+The Commission has successfully negotiated case resolutions in which landlords agree to set aside a certain portion of their holdings specifically for voucher-holding tenants, in addition to other terms of the settlements.
+
+The Commission revitalized its testing program in 2016. Many of the tests conducted in housing discrimination were implemented to root out discriminatory landlords and brokers. To identify source of income discrimination, the Commission often uses many different methods of testing, including matched pair, in-person, telephone, and online testing.
+
+The Commission continues its robust public outreach efforts to inform New Yorkers about their housing rights under the NYC Human Rights Law and prevent future acts of discrimination by training landlords and brokers about their obligations.
+
+The Commission has held hundreds of workshops and outreach events to educate tenants about their housing rights under the law, including an annual symposium on protections in housing under the NYC Human Rights Law.
+
+The Commission collaborates with housing advocates, elected officials, and City agencies, including Neighbors Together, Unlock NYC, Make the Road, New York Legal Assistance Group, WIN-NY, African Services Committee, Urban Justice Center, Legal Services, and sibling NYC agencies to address housing discrimination and inform people of their rights.
+
+## How has the Commission won justice for people like me? / What do I do if I experience discrimination?
+
+The Commission has resolved over 350 cases of source of income discrimination in the past two years. Here are a few examples.
+
+As a result of Commission testing, the Commission fined Abeco Management $20,000 for refusing to accept tenants with vouchers. The Commission also ordered the company, which owns 40 buildings, to train all staff on the NYC Human Rights Law and provide the Commission's Fair Housing notice to all tenants.
+
+In a settlement with Bronstein Properties, after Bronstein allegedly informed an individual qualified for the HIV/AIDS Services Administration ("HASA") program that housing assistance programs were not accepted. The Company agreed to revise their policies and application materials, post the Commission's "Notice of Rights" posters, set aside 20 apartments, and pay complainant emotional distress damages.
+
+A settlement with REM Residential after allegations that REM would not complete paperwork required for Section 8 resulted in damages, the set aside of five apartments for voucher holders, postings, trainings, and emotional distress damages.
+
+If you experience source of income discrimination, we can help. Report it to the NYC Commission on Human Rights by dialing 311 and asking for "Human Rights," call 212-416-0197, or use our Report Discrimination form.
+
+## Tenant Advocate's FAQ: What does Source of Income Discrimination sound like?
+
+The NYC Human Rights Law protects New Yorkers from discrimination in housing based on their "lawful source of income." "Lawful source of income" refers to Section 8, portable housing vouchers, security deposit vouchers, and all forms City FHEPS of public assistance. The NYC Human Rights Law protects tenants based on many protected classes in housing, including race, national origin, gender, sexual orientation, pregnancy, and others. For a complete list, visit NYC.gov/HumanRights.
+
+What does Source of Income Discrimination sound like?
+
+Any of the following statements made by an owner, manager, or real estate agent is evidence of source of income discrimination:
+
+• This building does not take vouchers.
+
+• There is a 'waitlist' for people with vouchers or programs.
+
+• This building only takes 'working Section 8.'
+
+• You can rent this apartment with a voucher, but you have to pay six (6) months of rent up front.
+
+• For tenants in housing: 'I'm not taking Section 8 for your unit. You need to move.'
+
+## Tenant Advocate's FAQ: Exceptions for small landlords
+
+Are there exceptions to the lawful source of income portion of the NYC Human Rights Law for small landlords?
+
+There are only two exceptions. Landlords do not have to accept a voucher or other lawful source of income if:
+
+1. They are renting a unit (which does not receive public assistance) in a building where they or a member of their family reside, the building has no more than two families living independently of each other, and the rental unit was not publicly advertised.
+
+2. They are renting a room in an unit in which the landlord or a member of the landlord's family resides and the unit does not receive public assistance. You are not expected to know all of this information - if you have questions about whether your rental is exempt under the NYC Human Rights Law, call 212-416-0197.
+
+## Tenant Advocate's FAQ: Minimum income, credit score and housing court history
+
+If I have a housing voucher, can my rental application be denied because I do not earn enough income?
+
+No. You cannot be rejected for insufficient income if:
+
+1. your voucher program would approve the monthly rent for the apartment and
+
+2. you have a housing voucher that calculates your portion of the rent based on your income (like Section 8). You also cannot be required to find a guarantor or co-signer.
+
+Can buildings require all applicants have a high credit score (e.g. 700 or above)?
+
+If you have a housing voucher that covers 100% of the rent, you should not be rejected based on your credit. If you pay a portion of the rent out of pocket, your credit may be considered on a case-by-case basis. Requiring a minimum credit score may be a violation of the NYC Human Rights Law.
+
+What if I am denied based on my past or pending housing court cases?
+
+State law prohibits landlords from rejecting applicants to rental housing based on pending or past landlord- tenant actions. If you are rejected based on your housing court history, it may be evidence of discrimination under the NYC Human Rights Law. Keep all documents from your prior housing court cases and, if you are rejected, ask the broker or owner for a letter explaining the reason as well as a copy of the background check used to reject you.
+
+## Tenant Advocate's FAQ: Application fees and preferring one voucher program over another
+
+Can I be asked to pay a large application fee or make an upfront deposit to "hold" or view an apartment?
+
+New York State Law caps application fees at $20.00 or the actual cost of a background or credit check, whichever is less for all rental apartments. If you have a housing voucher and are asked to pay upfront fees or deposits of more than $20.00, this may be evidence of discrimination under the NYC Human Rights Law.
+
+Can a real estate agent or landlord prefer one voucher program over another (e.g. Section 8 but not HASA)?
+
+No. Accepting only some vouchers or programs still violates the NYC Human Rights Law. This is true even if certain programs require extra paperwork, pay a lower fee to the broker, or involve longer processing times.
+
+## Tenant Advocate's FAQ: Protecting yourself and filing a complaint
+
+What should I do to protect myself against source of income discrimination?
+
+When searching for an apartment, keep detailed notes of all your calls and inquiries.
+
+• If responding to an advertisement, take a photo or screenshot of the advertisement immediately.
+
+• Save all your text messages and e-mails in a safe place (not just on your phone).
+
+• When possible, record your phone calls and conversations. (While this is permissible in New York, other states have different laws. Always consult with a lawyer if you have questions.)
+
+• Report denials to the Commission immediately while the unit is still available. The Commission can call the real estate agent or landlord to enforce the NYC Human Rights Law.
+
+What should I do if I'm told an apartment is no longer available and/or I stop receiving responses once I mention my housing voucher?
+
+Have a trusted friend who earns employment income call the agent and ask if the apartment is still available. If the real estate agent or landlord moves forward with your friend's potential application, that is evidence of source of income discrimination. Having a recording may be helpful to your case.
+
+What happens if I file a complaint against a real estate agent and/or landlord at the Commission?
+
+If the Commission finds the real estate agent and/or the landlord violated the law, all of the following are potential remedies:
+
+• A real estate agent or landlord may rent you the apartment or a similar apartment.
+
+• You may seek damages for your out-of-pocket expenses and emotional suffering. Keep notes of your experiences, feelings, and expenses after you are denied housing.
+
+• If you have a lawyer represent you in your case at the Commission, the agent and/or landlord may be responsible for paying your attorney's fees.
+
+• The City of New York can collect civil penalties of up to $250,000 per willful violation, monitor the agent or landlord's activity, and report licensed brokers & salespeople who violate the law to the New York State Licensing Division.
+
+## Best Practices for Housing Providers: Coverage and exceptions
+
+The NYC Human Rights Law (the "Law") protects tenants from discrimination in New York City based on their "lawful source of income." "Lawful source of income" refers to Section 8, portable housing vouchers, security deposit vouchers, and all forms of public assistance. Brokers, licensed salespeople, owners, and managing agents cannot treat current or prospective tenants less well or refuse to rent to them because they receive subsidies or vouchers. This FAQ will help you meet your obligations as an owner.
+
+How do I know if my property is subject to the NYC Human Rights Law prohibiting discrimination based on source of income?
+
+Most rentals in New York City are covered by the law, including subdivisions, single room units, and illegal units. There are only two exceptions:
+
+1. You do not have to accept a voucher or other lawful source of income if you are renting a unit (which does not receive public assistance) in a building you or members of your family reside, the building has no more than 2 families living independently of each other, and the rental unit was not publicly advertised.
+
+2. You are also exempt if you are renting a room in a unit in which you or a family member resides and the unit does not receive public assistance.
+
+## Best Practices for Housing Providers: Waitlists, screening, minimum income and credit
+
+Can I keep a separate list ("waitlist") of apartments for applicants with housing vouchers or open only certain buildings or units to voucher holders? May I prefer certain programs over others?
+
+No. Steering applicants to specific buildings or units is a violation of the Law. Accepting only some vouchers or programs also violates the Law. This is true even if certain programs require extra paperwork, pay the security deposit with a voucher in lieu of cash, pay brokers a lower fee, or involve longer processing times. You cannot discriminate between "working" and "non-working" applicants on Section 8 or other programs.
+
+May I rely solely on Tenant Screening Bureaus ("TSBs") or "scores" generated by tenant screening software to select applicants? What about screening applicants for past landlord-tenant cases?
+
+Applicants must be considered on a case-by-case basis, as described in this FAQ. Use of data from TSBs may disproportionally exclude voucher holders or members of other protected classes on a discriminatory basis. Most TSBs also provide data about prior landlord-tenant actions. You could face exposure under the Law if you rely on a prior housing case that is not related to the applicant's ability to pay rent or suitability as a tenant. In addition, New York State law prohibits owners from rejecting applicants for rental housing on the basis of pending or prior landlord-tenant actions.
+
+May I require all applicants to make a minimum income such as $68,000 annually or 43x the monthly rent? May I require voucher holders to find a "guarantor" or co-signer?
+
+When a voucher program calculates a tenants' rent based on their income, the government has already determined that they can afford to pay their required portion. In some instances, tenants will pay no portion of the rent out of pocket. Where a tenants' rental portion is calculated based on a tenants' income, it is a violation of the Law to impose any additional income requirements on applicants for housing. You may not require guarantors or co-signers.
+
+May I reject an applicant with a housing voucher based on credit history or score?
+
+If the voucher/subsidy covers 100% of the rent, you may not reject an applicant based on credit history or score. If the applicants pay a portion of the rent, you may make a credit inquiry. Requiring a specific credit score, however, is evidence of discrimination. Each application should be considered on a case-by-case basis. Prior to rejecting an applicant based on credit, the applicant should be provided an opportunity to demonstrate ability to timely pay their portion of the rent. To protect yourself under the Law and comply with federal law when making a decision based on a credit report, provide the applicant a written explanation of your analysis.
+
+## Best Practices for Housing Providers: Fees, agents, existing tenants and consequences
+
+May applicants be required to pay a large application fee or an upfront deposit to "hold" the apartment?
+
+No. State law caps application fees at $20.00 or the actual cost of a background or credit check, whichever is less. You should not charge any additional fees, deposits, or rent until the applicant has been approved to move in by the agency administering the subsidy or voucher and the owner is prepared to offer possession. Broker fees paid by HRA may be paid after move in. Unless exempt, owners must accept security deposit vouchers. This applies to all rental apartments, including cooperatives, condos, fair market and rent stabilized apartments. Any policy that makes it difficult for a person with a voucher to successfully apply for and/or secure an apartment may expose a housing provider to liability under the Law.
+
+As an owner, am I responsible for the actions of employees, superintendents, independent contractors, brokers, and licensed salespersons working to rent my units?
+
+Yes. You are responsible for the actions of anyone who plays a role in processing applications for your rental units, even if that person is not your employee. If you have a number of agents showing your apartments, you should take measures to ensure no one advertises or screens applicants for your property in a discriminatory manner as described in the following answer.
+
+What should I do if I discover that a broker or licensed salesperson has engaged in discriminatory rental practices without my consent?
+
+Once you discover discrimination, you should terminate your relationship with the agent and the related brokerage firm. The best way to protect yourself from liability is to report the violation to the NYC Commission on Human Rights ("Commission") by calling 212-416-0197. To avoid liability:
+
+1. keep a log of any broker or agent who made an unlawful denial which includes all known details about the denial;
+
+2. notify the Commission of potential violations; and
+
+3. keep copies of all communications you have had with the offending agent or company. If you find out about the discriminatory denial while you still have vacancies, the best practice is to offer the otherwise-qualified applicant the apartment to mitigate any damages the applicant might have sustained.
+
+What are my obligations to tenants in my buildings with rental subsidies?
+
+Unless exempt, you must accept vouchers of tenants already in possession by complying with program obligations, such as filling out all paperwork and ensuring the unit passes applicable housing quality inspections. Even if a tenant qualifies for a voucher or subsidy after obtaining possession of the apartment, owners may not refuse to accept payments from voucher or subsidy programs.
+
+What are the potential consequences of violating the Law?
+
+Any or all of the following are potential consequences:
+
+• Willful violations can carry a civil penalty of up to $250,000 per violation.
+
+• Tenants can seek compensatory and emotional suffering damages with no cap. If, for example, an applicant remains homeless after an unlawful denial, you can be held accountable for the emotional suffering associated with homelessness.
+
+• You may be liable for the complainant's attorney's fees.
+
+• The Commission may monitor owners for compliance for a period of months or years.

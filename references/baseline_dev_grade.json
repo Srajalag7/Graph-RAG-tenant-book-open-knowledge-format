@@ -1,0 +1,1131 @@
+{
+ "summary": {
+  "n_questions": 110,
+  "coverage": [
+   0.717391304347826,
+   92
+  ],
+  "correctness": [
+   0.48484848484848486,
+   66
+  ],
+  "correctness_by_slice": {
+   "contradiction": [
+    0.0,
+    11
+   ],
+   "interpretation": [
+    0.48,
+    25
+   ],
+   "numerical": [
+    0.8,
+    15
+   ],
+   "temporal": [
+    0.5333333333333333,
+    15
+   ]
+  },
+  "cites_gold_doc": [
+   1.0,
+   66
+  ],
+  "verbatim_rate": [
+   0.9823008849557522,
+   113
+  ],
+  "citation_support_rate": [
+   0.5,
+   110
+  ],
+  "out_of_corpus_refusal": [
+   1.0,
+   9
+  ],
+  "fabricated_citations": 0,
+  "role_blocked_correct_refusal": [
+   0.7777777777777778,
+   9
+  ],
+  "role_violations": 0,
+  "role_violations_cited_blocked_doc": 0,
+  "role_violations_judged_leak": 0,
+  "judge_leak_dismissed": 1,
+  "role_violation_detail": [],
+  "lied_no_such_rule": 2,
+  "stale_citations": 0,
+  "shape_flags": {
+   "missing_answer": 0,
+   "refused_with_citations": 0,
+   "refusal_without_reason": 0,
+   "answered_without_citation": 0,
+   "answered_empty": 0,
+   "bad_status": 0
+  },
+  "judge": "gpt-5.6-luna"
+ },
+ "per_question": [
+  {
+   "id": "tb-0001",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0004",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0005",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0006",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0009",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0010",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0011",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0012",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0016",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0017",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0018",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0019",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0021",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0022",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0023",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0027",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0028",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0029",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0030",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [
+    "lied_no_such_rule"
+   ],
+   "status": "answered",
+   "expected": "refused:not_permitted",
+   "correct_refusal": false
+  },
+  {
+   "id": "tb-0031",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [
+    "lied_no_such_rule",
+    "lied_no_such_rule"
+   ],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": false
+  },
+  {
+   "id": "tb-0032",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0035",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0036",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:not_permitted",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0037",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0101",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0102",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0103",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0104",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0105",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0108",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0110",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0111",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0115",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0116",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0117",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0118",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0120",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0121",
+   "slice": "numerical",
+   "role": "staff",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0122",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0123",
+   "slice": "numerical",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0124",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0127",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0129",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0130",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0131",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0132",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0133",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0135",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0137",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0138",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0139",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0140",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0141",
+   "slice": "contradiction",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0142",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0143",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0144",
+   "slice": "out_of_corpus",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0145",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0201",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0203",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0204",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0205",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0206",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0207",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0208",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0210",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0211",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0212",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0213",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0215",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0217",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0219",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0220",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0221",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0222",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0224",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0225",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0226",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0229",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0231",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0232",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0233",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0234",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0235",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0236",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0238",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0240",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0241",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0243",
+   "slice": "out_of_corpus",
+   "role": "staff",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0304",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0305",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0307",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0308",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0311",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0312",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0316",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0317",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0318",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0319",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0322",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0325",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0326",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": true
+  },
+  {
+   "id": "tb-0327",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0328",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0329",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0331",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0332",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "expected": "answered",
+   "covered": true,
+   "correct": false
+  },
+  {
+   "id": "tb-0335",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0337",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0338",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0339",
+   "slice": "out_of_corpus",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  }
+ ]
+}

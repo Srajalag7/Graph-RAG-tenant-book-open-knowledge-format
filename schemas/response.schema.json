@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AskResponse",
+  "type": "object",
+  "required": ["id", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string"},
+    "status": {"type": "string", "enum": ["answered", "refused"]},
+    "answer": {"type": ["string", "null"], "description": "Required when status is answered. Plain text. May be null when refused."},
+    "refusal_reason": {"type": ["string", "null"], "enum": ["out_of_corpus", "not_permitted", null], "description": "Required when status is refused. out_of_corpus = the tenant book does not contain the answer. not_permitted = it does, but not for this role."},
+    "refusal_message": {"type": ["string", "null"], "description": "Optional. What the user is shown when refused. Must not quote, paraphrase or name a document the role may not see."},
+    "citations": {
+      "type": "array",
+      "description": "Required and non-empty when status is answered. Must be empty when refused.",
+      "items": {
+        "type": "object",
+        "required": ["doc_id", "section", "quote"],
+        "additionalProperties": false,
+        "properties": {
+          "doc_id": {"type": "string", "description": "A doc_id from corpus/manifest.json"},
+          "section": {"type": "string", "description": "The section heading as it appears in corpus/docs/<doc_id>.md"},
+          "quote": {"type": "string", "minLength": 20, "description": "A verbatim span from that document. Checked by exact match after normalization."}
+        }
+      }
+    },
+    "governing": {
+      "type": ["object", "null"],
+      "description": "Optional. When two or more documents bear on the answer and one controls, say which and why. The frontend must display this.",
+      "required": ["doc_id", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "doc_id": {"type": "string"},
+        "reason": {"type": "string"},
+        "overridden": {"type": "array", "items": {"type": "string"}, "description": "doc_ids that also bear on the question but do not control"}
+      }
+    },
+    "superseded_notice": {"type": ["string", "null"], "description": "Optional. Set when any cited document has a newer version in the corpus, or was not in force on as_of."}
+  }
+}

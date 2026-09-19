@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Question",
+  "type": "object",
+  "required": [
+    "id",
+    "question",
+    "role",
+    "as_of"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "renter",
+        "landlord",
+        "staff"
+      ]
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "slice": {
+      "type": "string",
+      "enum": [
+        "interpretation",
+        "numerical",
+        "temporal",
+        "contradiction",
+        "out_of_corpus",
+        "role_blocked"
+      ],
+      "description": "Present in dev.jsonl. Absent in heldout.jsonl."
+    },
+    "gold": {
+      "type": "object",
+      "description": "Present in dev.jsonl only.",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "answered",
+            "refused"
+          ]
+        },
+        "refusal_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "out_of_corpus",
+            "not_permitted",
+            null
+          ]
+        },
+        "answer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "A reference answer. The judge compares meaning, not wording."
+        },
+        "must_mention": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Facts the answer must contain to be correct (figures, dates, which document governs)."
+        },
+        "must_not_mention": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Facts whose presence makes the answer wrong (a superseded figure, a blocked document)."
+        },
+        "citations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "doc_id"
+            ],
+            "properties": {
+              "doc_id": {
+                "type": "string"
+              },
+              "section": {
+                "type": "string"
+              }
+            }
+          },
+          "description": "Documents a correct answer cites. Any one of them suffices for the citation-relevance check."
+        },
+        "blocked_docs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "For role_blocked questions: doc_ids the role may not see and which contain the answer."
+        },
+        "accept_refusal": {
+          "type": "boolean",
+          "description": "When true, a refusal with out_of_corpus is scored as correct and covered, as an alternative to the reference answer. Used where as_of precedes the rule and the corpus does not state the earlier rule."
+        }
+      }
+    }
+  }
+}

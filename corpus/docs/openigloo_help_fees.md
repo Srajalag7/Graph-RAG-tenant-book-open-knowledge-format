@@ -1,0 +1,31 @@
+# openigloo Help Center: Fees and Deposits on openigloo Listings
+
+<!-- doc_id: openigloo_help_fees | issuer: openigloo | source_url: internal | effective_from: 2025-06-11 | effective_to: None | supersedes: None | superseded_by: None | visibility: renter,landlord,staff | version: 1 -->
+
+## What "no fee" means on openigloo
+
+A listing marked "no fee" on openigloo means you will not pay a broker fee at any point: not when you apply, not when you sign, and not after you move in. The landlord has either hired no broker or is paying the broker themselves. If anyone asks you for a broker fee on a listing marked "no fee", do not pay it. Report it to us from the listing page and we will follow up within one business day.
+
+## What "fee" means on openigloo
+
+A listing marked "fee" means a broker fee is charged to the renter. The listing must state the fee amount or the formula used to calculate it, for example "one month's rent" or "12% of annual rent". If the amount is not shown, the listing is not compliant with openigloo's standards and you can report it.
+
+## Who is allowed to charge you a fee
+
+Since June 11, 2025, New York City law requires that whoever hires a broker pays that broker. If the landlord's agent listed the apartment, the landlord's agent cannot charge you a fee. You can still choose to hire your own broker to search for you, and you pay that broker.
+
+On openigloo, every listing states who pays before you contact the landlord. This is an openigloo requirement and applies to every listing on the platform, regardless of when the listing was created.
+
+## Security deposits
+
+New York law caps the security deposit at one month's rent for all residential leases signed on or after June 14, 2019. Landlords may not collect additional deposits, "key money", or prepaid last month's rent on top of that.
+
+openigloo listings follow the same cap and additionally may not request prepaid rent beyond the first month. If a listing asks for more, report it.
+
+## Application fees
+
+New York law caps the application fee at $20, or the actual cost of a background and credit check, whichever is less, and the landlord must waive the fee if you provide your own credit and background report from the last 30 days. openigloo listings display the application fee where one is charged.
+
+## Getting your deposit back
+
+Your landlord must return your deposit within 14 days after you move out, with an itemized statement of any deductions. If they do not send the statement within 14 days, they forfeit the right to keep any of the deposit. You are entitled to inspect the apartment with the landlord before you move out and to receive a list of proposed deductions, so you have a chance to fix them.

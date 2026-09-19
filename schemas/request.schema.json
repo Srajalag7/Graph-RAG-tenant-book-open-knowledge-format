@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AskRequest",
+  "type": "object",
+  "required": ["id", "question", "role", "as_of"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "Question id. Echo it back in the response."},
+    "question": {"type": "string", "minLength": 1},
+    "role": {"type": "string", "enum": ["renter", "landlord", "staff"], "description": "The authoritative requester role. Do not infer role from the question text."},
+    "as_of": {"type": "string", "format": "date", "description": "YYYY-MM-DD. The date the answer must be correct for: the lease start date, the listing date, or today."}
+  }
+}

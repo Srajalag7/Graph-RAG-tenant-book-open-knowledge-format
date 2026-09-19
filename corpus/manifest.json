@@ -1,0 +1,540 @@
+{
+ "documents": [
+  {
+   "doc_id": "claire_policy",
+   "title": "openigloo Assistant Policy Book",
+   "issuer": "openigloo",
+   "layer": "internal",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-07-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "internal",
+   "version": 1,
+   "notes": "Rules the assistant must follow. Stricter than the law on rent increase figures (P2), fees (P6) and deposits (P7). Public: any role may see it."
+  },
+  {
+   "doc_id": "openigloo_help_fees",
+   "title": "openigloo Help Center: Fees and Deposits on openigloo Listings",
+   "issuer": "openigloo",
+   "layer": "internal",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-06-11",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "internal",
+   "version": 1,
+   "notes": "Renter-facing help article. Restates the FARE Act and the deposit cap in plain language plus openigloo's own listing rules."
+  },
+  {
+   "doc_id": "landlord_screening_guidelines",
+   "title": "openigloo Landlord Screening Guidelines",
+   "issuer": "openigloo",
+   "layer": "internal",
+   "visibility": [
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-03-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "internal",
+   "version": 1,
+   "notes": "Landlord and staff only. Renters asking about screening criteria or why they were declined must get not_permitted, not a claim that no criteria exist."
+  },
+  {
+   "doc_id": "internal_listing_fields",
+   "title": "openigloo Internal Listing Fields",
+   "issuer": "openigloo",
+   "layer": "internal",
+   "visibility": [
+    "staff"
+   ],
+   "effective_from": "2025-01-15",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "internal",
+   "version": 1,
+   "notes": "Staff only. Describes voucher_friendly, moderation_notes, stabilization_hint and other hidden fields."
+  },
+  {
+   "doc_id": "staff_escalation_playbook",
+   "title": "openigloo Staff Escalation Playbook",
+   "issuer": "openigloo",
+   "layer": "internal",
+   "visibility": [
+    "staff"
+   ],
+   "effective_from": "2025-05-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "internal",
+   "version": 1,
+   "notes": "Staff only. What happens after the assistant hands off. Renters and landlords may be told a person will follow up (claire_policy P10) but not the contents of this document."
+  },
+  {
+   "doc_id": "rpl_7-108_deposits",
+   "title": "General Obligations Law \u00a7 7-108 \u2014 Deposits made by tenants of non-rent stabilized dwelling units",
+   "issuer": "New York State Legislature (General Obligations Law, as amended by L.2019 ch.36 Part M, Housing Stability and Tenant Protection Act of 2019)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-108",
+   "version": 1,
+   "notes": "Prior to June 14, 2019, GOL \u00a7 7-108 contained only the applicability, successor-liability and anti-waiver provisions (now subdivisions 1-3) with no cap on the amount of a deposit and no deadline or itemization requirement for its return. The HSTPA (L.2019 ch.36 Part M, effective 2019-06-14) added subdivision 1-a: deposits capped at one month's rent, pre- and post-occupancy inspections, itemized statement and return within fourteen days, landlord burden of proof and punitive damages up to twice the deposit. Later amendments (L.2021, effective 2021-12-31; L.2022, revision 2022-03-04) added the seasonal-use and owner-occupied cooperative apartment exceptions (subdivisions 4-6); the text here is the current nysenate.gov revision dated 2022-03-04."
+  },
+  {
+   "doc_id": "rpl_238-a_fees",
+   "title": "Real Property Law \u00a7 238-a \u2014 Limitation on fees",
+   "issuer": "New York State Legislature (Real Property Law, added by L.2019 ch.36 Part M, Housing Stability and Tenant Protection Act of 2019)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/238-A",
+   "version": 1,
+   "notes": "Added by the HSTPA (L.2019 ch.36 Part M), effective 2019-06-14: application/processing fees prohibited except a background and credit check fee of the actual cost or $20, whichever is less; late fees only after five days and capped at $50 or five percent of monthly rent, whichever is less; waivers void. Subdivision 2-a (dishonored check fees) and the cooperative housing corporation carve-outs were added by later amendments (2021-2025); the text here is the current nysenate.gov revision dated 2025-10-17. Before 2019-06-14 there was no statutory cap on application or late fees."
+  },
+  {
+   "doc_id": "rpl_226-c_notice",
+   "title": "Real Property Law \u00a7 226-c \u2014 Notice of rent increase or non-renewal of residential tenancy",
+   "issuer": "New York State Legislature (Real Property Law, added by L.2019 ch.36 Part M, Housing Stability and Tenant Protection Act of 2019; amended by L.2024 ch.56 Part HH)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-10-12",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/226-C",
+   "version": 1,
+   "notes": "Added by the HSTPA (L.2019 ch.36 Part M \u00a7 3), effective 120 days after enactment, i.e. 2019-10-12: written notice of 30/60/90 days (based on occupancy or lease length) before a rent increase of five percent or more or non-renewal. Amended by the Good Cause Eviction legislation (L.2024 ch.56 Part HH) effective 2024-08-18 to require the notice to append the RPL \u00a7 231-c Good Cause disclosure; that version sunsets 2034-06-15, when the original paragraph (a) text revives. The text here is the current nysenate.gov revision (2025-08-22) and shows both versions of paragraph (a)."
+  },
+  {
+   "doc_id": "rpl_227-e_mitigate",
+   "title": "Real Property Law \u00a7 227-e \u2014 Landlord duty to mitigate damages",
+   "issuer": "New York State Legislature (Real Property Law, added by L.2019 ch.36 Part M, Housing Stability and Tenant Protection Act of 2019)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/227-E",
+   "version": 1,
+   "notes": "Added by the HSTPA (L.2019 ch.36 Part M), effective 2019-06-14. Before that date New York common law (Holy Properties v. Kenneth Cole, 1995) imposed no duty on a residential landlord to mitigate damages after a tenant vacated early; \u00a7 227-e created that duty and voids lease clauses exempting it. No amendments since enactment (nysenate.gov revision 2019-06-28)."
+  },
+  {
+   "doc_id": "rpl_art6a_good_cause",
+   "title": "Real Property Law Article 6-A \u2014 Good Cause Eviction Law (\u00a7\u00a7 210-218)",
+   "issuer": "New York State Legislature (Real Property Law Article 6-A, added by L.2024 ch.56 Part HH; DHCR Required Notice as of February 19, 2025)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2024-04-20",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/A6-A",
+   "version": 1,
+   "notes": "Article 6-A was added by L.2024 ch.56 Part HH, signed and effective 2024-04-20, applying immediately in New York City (\u00a7 212) and to other municipalities only by local opt-in (\u00a7 213); it is repealed effective 2034-06-15. The doc also embeds the DHCR Required Notice as of February 19, 2025 (https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025) giving the FY2025 HUD fair market rents and the 245% thresholds for the five NYC counties (efficiency $5,471; 1BR $5,709; 2BR $6,321; 3BR $7,877; 4BR $8,499) and the 2023-to-2024 NYC-area CPI change of 3.79% (so the 2025 NYC inflation index is 8.79% and the local rent standard is 8.79%, below the 10% cap). DHCR republishes these figures each year on or before August 1; a newer notice dated May 4, 2026 exists and supersedes the 2025 figures for later leases."
+  },
+  {
+   "doc_id": "nyc_fare_act",
+   "title": "NYC Local Law 119 of 2024 \u2014 Fairness in Apartment Rental Expenses (FARE) Act (Admin. Code \u00a7\u00a7 20-699.20 to 20-699.25)",
+   "issuer": "New York City Council (Int. No. 360-A, enacted as Local Law 2024/119 on December 13, 2024; adds Subchapter 15 to Chapter 4 of Title 20 of the Administrative Code)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-06-11",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=6557858&GUID=2E6273DC-FF0F-40B2-AAB5-B9B3D9BD09DB",
+   "version": 1,
+   "notes": "Int. No. 360-A passed the Council 2024-11-13, was returned unsigned by the Mayor and became Local Law 2024/119 on 2024-12-13; by its \u00a7 2 it took effect 180 days later, on 2025-06-11. Before that date NYC tenants were routinely charged the landlord's broker fee; the law bars a landlord's agent (or any agent publishing a listing with the landlord's permission) from charging the tenant, requires fee disclosure in listings and a signed itemized disclosure before lease signing, and sets civil penalties and a private right of action. Text is the enacted Int. No. 360-A as published on Legistar."
+  },
+  {
+   "doc_id": "rpl_235-e_receipts",
+   "title": "Real Property Law \u00a7 235-e \u2014 Duty to provide a written receipt",
+   "issuer": "New York State Legislature (Real Property Law; subdivision (d) added by L.2019 ch.36 Part M, Housing Stability and Tenant Protection Act of 2019)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/235-E",
+   "version": 1,
+   "notes": "Subdivisions (a)-(c) (written receipts for cash or non-personal-check rent, receipts on written request, three-year record retention, timing) predate 2019. The HSTPA (L.2019 ch.36 Part M), effective 2019-06-14, added subdivision (d): if rent is not received within five days of the due date the lessor must send written notice by certified mail, and failure to do so is an affirmative defense in a nonpayment eviction. A 2021 amendment (effective 2021-12-31) added the cooperative housing corporation mailing-method exception; text here is that current revision."
+  },
+  {
+   "doc_id": "rgb_order_55",
+   "title": "NYC Rent Guidelines Board 2023 Apartment & Loft Order #55",
+   "issuer": "New York City Rent Guidelines Board",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2023-10-01",
+   "effective_to": "2024-09-30",
+   "supersedes": null,
+   "superseded_by": "rgb_order_56",
+   "source_url": "https://rentguidelinesboard.cityofnewyork.us/2023-24-apartment-loft-order-55/",
+   "version": 1,
+   "notes": "Apartment and loft guidelines for leases commencing October 1, 2023 through September 30, 2024: 3% for one-year leases; two-year leases 2.75% in the first year and 3.20% of the first-year rent in the second year. Adopted June 21, 2023."
+  },
+  {
+   "doc_id": "rgb_order_56",
+   "title": "NYC Rent Guidelines Board 2024 Apartment & Loft Order #56",
+   "issuer": "New York City Rent Guidelines Board",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2024-10-01",
+   "effective_to": "2025-09-30",
+   "supersedes": "rgb_order_55",
+   "superseded_by": "rgb_order_57",
+   "source_url": "https://rentguidelinesboard.cityofnewyork.us/2024-25-apartment-loft-order-56/",
+   "version": 1,
+   "notes": "Apartment and loft guidelines for leases commencing October 1, 2024 through September 30, 2025: 2.75% for one-year leases and 5.25% for two-year leases. Adopted June 17, 2024."
+  },
+  {
+   "doc_id": "rgb_order_57",
+   "title": "NYC Rent Guidelines Board 2025 Apartment & Loft Order #57",
+   "issuer": "New York City Rent Guidelines Board",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-10-01",
+   "effective_to": "2026-09-30",
+   "supersedes": "rgb_order_56",
+   "superseded_by": null,
+   "source_url": "https://rentguidelinesboard.cityofnewyork.us/2025-26-apartment-loft-order-57/",
+   "version": 1,
+   "notes": "Apartment and loft guidelines for leases commencing October 1, 2025 through September 30, 2026: 3% for one-year leases and 4.5% for two-year leases. Adopted June 30, 2025; the RGB site already lists a 2026-27 Order #58 (not in this corpus part), so superseded_by points to rgb_order_58. As shipped, this is the latest order in the corpus."
+  },
+  {
+   "doc_id": "dhcr_fs1_stabilization",
+   "title": "DHCR Fact Sheet #1: Rent Stabilization and Rent Control",
+   "issuer": "New York State Homes and Community Renewal, Office of Rent Administration",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://hcr.ny.gov/system/files/documents/2024/01/fact-sheet-01-01-2024_0.pdf",
+   "version": 1,
+   "notes": "Overview of rent stabilization and rent control: coverage, tenant rights, lease renewals at the tenant's choice of one or two years, rent increases, overcharges (six-year lookback post-HSTPA), harassment and registration. Revision FS-01 (01/2024); effective_from is the revision month. effective_from set to 2019-06-14 (post-HSTPA content) so the sheet is retrievable for all post-HSTPA as_of dates; DHCR revision date was 2024-01-01."
+  },
+  {
+   "doc_id": "dhcr_fs26_increases",
+   "title": "DHCR Fact Sheet #26: Guide to Rent Increases for Rent Stabilized Apartments",
+   "issuer": "New York State Homes and Community Renewal, Office of Rent Administration",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://hcr.ny.gov/system/files/documents/2026/07/fact-sheet-26-07-2026.pdf",
+   "version": 1,
+   "notes": "Guide to lawful rent increases: RGB guideline adjustments for vacancy and renewal leases, preferential rent treatment, two-tier IAI caps effective October 17, 2024, MCI 2% annual cap, and the Recent Lease Guideline Rates chart through 10/1/2026-9/30/2027. Revision FS-26 (07/2026); effective_from is the revision month. effective_from set to 2019-06-14 (post-HSTPA content) so the sheet is retrievable for all post-HSTPA as_of dates; DHCR revision date was 2026-07-01. The rate-chart row for leases commencing 10/1/2026-9/30/2027 was removed from this copy because the corpus is frozen at Apartment Order #57; a later order is supplied only by the freshness pack."
+  },
+  {
+   "doc_id": "dhcr_fs16_overcharge",
+   "title": "DHCR Fact Sheet #16: Collecting Overcharges in Rent Stabilized Apartments",
+   "issuer": "New York State Homes and Community Renewal, Office of Rent Administration",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://hcr.ny.gov/system/files/documents/2025/07/fact-sheet-16-07-2025.pdf",
+   "version": 1,
+   "notes": "How tenants collect DHCR-awarded overcharge penalties: treble damages on willful overcharges up to six years before the complaint for post-HSTPA filings, the 35-day PAR window, and the offset and judgment methods. Revision FS-16 (07/2025); effective_from is the revision month. effective_from set to 2019-06-14 (post-HSTPA content) so the sheet is retrievable for all post-HSTPA as_of dates; DHCR revision date was 2025-07-01."
+  },
+  {
+   "doc_id": "dhcr_fs40_preferential",
+   "title": "DHCR Fact Sheet #40: Preferential Rents",
+   "issuer": "New York State Homes and Community Renewal, Office of Rent Administration",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://hcr.ny.gov/system/files/documents/2024/05/fact-sheet-40-05-2024_0.pdf",
+   "version": 1,
+   "notes": "Preferential rents after HSTPA: tenants paying a preferential rent on or after June 14, 2019 keep it for the tenancy, guideline increases apply to the preferential rent, and the legal rent may be charged only on vacancy. Revision FS-40 (05/2024); effective_from is the revision month. effective_from set to 2019-06-14 (post-HSTPA content) so the sheet is retrievable for all post-HSTPA as_of dates; DHCR revision date was 2024-05-01."
+  },
+  {
+   "doc_id": "dhcr_fs30_succession",
+   "title": "DHCR Fact Sheet #30: Succession Rights",
+   "issuer": "New York State Homes and Community Renewal, Office of Rent Administration",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-06-14",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://hcr.ny.gov/system/files/documents/2023/11/fact-sheet-30-11-2023.pdf",
+   "version": 1,
+   "notes": "Succession rights for family members of rent stabilized and rent controlled tenants: definition of family member, two-year (one-year for seniors and disabled persons) co-residency, interdependence factors and Form RA-23.5. Revision FS-30 (11/2023); effective_from is the revision month. effective_from set to 2019-06-14 (post-HSTPA content) so the sheet is retrievable for all post-HSTPA as_of dates; DHCR revision date was 2023-11-01."
+  },
+  {
+   "doc_id": "hmc_27-2029_heat",
+   "title": "NYC Administrative Code \u00a7 27-2029 Minimum temperature to be maintained",
+   "issuer": "New York City Council (NYC Administrative Code, Housing Maintenance Code)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2017-10-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-60027",
+   "version": 1,
+   "notes": "Text from the American Legal Publishing bulk XML of the NYC Administrative Code (current through Local Law 2026/147). Last amended by L.L. 2017/086, effective October 1, 2017, which set the 62\u00b0F night standard regardless of outside temperature."
+  },
+  {
+   "doc_id": "hmc_27-2031_hot_water",
+   "title": "NYC Administrative Code \u00a7 27-2031 Supply of hot water; when required",
+   "issuer": "New York City Council (NYC Administrative Code, Housing Maintenance Code)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "1968-01-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-60027",
+   "version": 1,
+   "notes": "Text from the American Legal Publishing bulk XML of the NYC Administrative Code (current through Local Law 2026/147). The source shows no amendment-history note for this section; effective_from is set to the original Housing Maintenance Code date and is uncertain (the mixing-valve 110\u00b0F language was added by a later local law)."
+  },
+  {
+   "doc_id": "hmc_27-2018.1_bedbugs",
+   "title": "NYC Administrative Code \u00a7 27-2018.1 Notice of bedbug infestation history",
+   "issuer": "New York City Council (NYC Administrative Code, Housing Maintenance Code)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2017-11-06",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-60027",
+   "version": 1,
+   "notes": "Text from the American Legal Publishing bulk XML of the NYC Administrative Code (current through Local Law 2026/147). Last amended by L.L. 2017/069, effective November 6, 2017 (added subdivision c, the annual electronic filing notice under \u00a7 27-2018.2)."
+  },
+  {
+   "doc_id": "nyc_admin_8-107_5_soi",
+   "title": "NYC Administrative Code \u00a7 8-107(5) Housing accommodations (NYC Human Rights Law) and \u00a7 8-102 definition of lawful source of income",
+   "issuer": "New York City Council (NYC Administrative Code, Title 8 Human Rights Law)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2025-05-08",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-4607",
+   "version": 1,
+   "notes": "Text from the American Legal Publishing bulk XML of the NYC Administrative Code (current through Local Law 2026/147). Only subdivision 5 paragraphs (a), (m) and (p) of \u00a7 8-107 and the \u00a7 8-102 \"lawful source of income\" definition are included. The \u00a7 8-107 amendment history ends with L.L. 2024/109, eff. 5/8/2025, which is used as effective_from; the lawful source of income protection itself dates from L.L. 2008/010 (eff. 3/29/2008)."
+  },
+  {
+   "doc_id": "cchr_soi_guidance",
+   "title": "NYC Commission on Human Rights: Source of Income Discrimination",
+   "issuer": "NYC Commission on Human Rights",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2023-03-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nyc.gov/site/cchr/media/source-of-income.page",
+   "version": 1,
+   "notes": "Web page text plus the Commission's two linked March 2023 FAQ sheets (Source of Income Discrimination: A Tenant Advocate's FAQ, and Best Practices for Housing Providers to Avoid Source of Income Discrimination, at https://www.nyc.gov/assets/cchr/downloads/pdf/materials/FairHouse_FAQs-Tenant-English.pdf and FairHouse_FAQs-Landlord-English.pdf). effective_from uses the FAQ sheets' March 2023 date; the web page itself is undated (fetched 2026-09-17). Case statistics and course dates on the page reflect the snapshot date."
+  },
+  {
+   "doc_id": "nys_exec_296_5_soi",
+   "title": "NY Executive Law \u00a7 296(5)(a) Unlawful discriminatory practices in housing accommodations (lawful source of income) and \u00a7 292(36) definition",
+   "issuer": "New York State Legislature (Executive Law, Article 15 Human Rights Law)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2019-04-12",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/EXC/296",
+   "version": 1,
+   "notes": "Text of \u00a7 296(5)(a) as displayed on nysenate.gov (most recent revision 2026-06-05) plus the \u00a7 292(36) definition of \"lawful source of income\" from https://www.nysenate.gov/legislation/laws/EXC/292. Lawful source of income was added statewide by L.2019 ch.56 Part O (signed April 12, 2019); the section has been amended for other protected classes since, so the exact date of the current wording is later than effective_from."
+  },
+  {
+   "doc_id": "nyc_admin_26-521_unlawful_eviction",
+   "title": "NYC Administrative Code \u00a7 26-521 Unlawful eviction",
+   "issuer": "New York City Council (NYC Administrative Code, Title 26 Chapter 5 Unlawful Eviction)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "1983-01-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-47504",
+   "version": 1,
+   "notes": "Text from the American Legal Publishing bulk XML of the NYC Administrative Code (current through Local Law 2026/147). The source shows no amendment-history note for this section; Chapter 5 was enacted by L.L. 1982/056 and effective_from is approximate."
+  },
+  {
+   "doc_id": "hpd_heat_complaints",
+   "title": "HPD Heat and Hot Water",
+   "issuer": "NYC Department of Housing Preservation and Development (HPD)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2017-10-01",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nyc.gov/site/hpd/services-and-information/heat-and-hot-water-information.page",
+   "version": 1,
+   "notes": "HPD web page (Housing Quality / Safety > Heat and Hot Water), fetched 2026-09-17; the page is undated, so effective_from uses the \"statistics as of 5/31/2026\" stamp on the page. Cold-weather safety tips, energy-saving links and the complaint statistics table were omitted. effective_from set to 2017-10-01 (the date of the current heat rule the page describes) so the page is retrievable for all as_of dates in the question set; the page itself is undated."
+  },
+  {
+   "doc_id": "rpl_235-b_habitability",
+   "title": "NY Real Property Law \u00a7 235-b Warranty of habitability",
+   "issuer": "New York State Legislature (Real Property Law, Article 7 Landlord and Tenant)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2014-09-22",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/RPP/235-B",
+   "version": 1,
+   "notes": "Text as displayed on nysenate.gov, whose earliest tracked revision is 2014-09-22 (the statute was enacted in 1975 and last substantively amended earlier); effective_from uses the nysenate.gov revision date."
+  },
+  {
+   "doc_id": "gol_7-103_deposit_interest",
+   "title": "NY General Obligations Law \u00a7 7-103 Money deposited or advanced for use or rental of real property; waiver void; administration expenses",
+   "issuer": "New York State Legislature (General Obligations Law, Article 7)",
+   "layer": "regulator",
+   "visibility": [
+    "renter",
+    "landlord",
+    "staff"
+   ],
+   "effective_from": "2014-09-22",
+   "effective_to": null,
+   "supersedes": null,
+   "superseded_by": null,
+   "source_url": "https://www.nysenate.gov/legislation/laws/GOB/7-103",
+   "version": 1,
+   "notes": "Text as displayed on nysenate.gov, whose earliest tracked revision is 2014-09-22; effective_from uses that revision date (the substantive text predates it)."
+  }
+ ],
+ "generated_by": "scripts/build_corpus.py"
+}
