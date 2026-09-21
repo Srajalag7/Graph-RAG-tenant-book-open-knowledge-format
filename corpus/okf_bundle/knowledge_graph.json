@@ -1,0 +1,1245 @@
+{
+  "format_version": 1,
+  "okf_version": "0.2",
+  "source_fingerprint": "56b66d6a26713a2eea322bd69881c6a24c82cad344c5e0ba50c798426de19de1",
+  "nodes": {
+    "/docs/cchr_soi_guidance/index.md": {
+      "sha256": "985ff872d14fab532382a4ba4b740c9770e905dbca9d90d85c5d1981b48567ea",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/cchr_soi_guidance/v1.md": {
+      "sha256": "1adbf3626bee83c360eaffd0ab8222155f459e0e2a32d93dddd02a560dbecac7",
+      "doc_id": "cchr_soi_guidance",
+      "source_path": "docs/cchr_soi_guidance.md"
+    },
+    "/docs/claire_policy/index.md": {
+      "sha256": "22fb4fe06a8167cb2c5f643859337c96f252a9e320f486a20b460f86548c98a8",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/claire_policy/v1.md": {
+      "sha256": "f9e6dc7f9c3608efdd2f16418cc3d81383521457749287947680e214ca9a819d",
+      "doc_id": "claire_policy",
+      "source_path": "docs/claire_policy.md"
+    },
+    "/docs/dhcr_fs16_overcharge/index.md": {
+      "sha256": "6e8b507a065149821166ff8785741f558cf5dcc822f3a6db669db90705b6ae37",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/dhcr_fs16_overcharge/v1.md": {
+      "sha256": "7479ddf28116c9ea2c19e306fd87d28fb4855deb65b7f5f3013c7c88a38abfc6",
+      "doc_id": "dhcr_fs16_overcharge",
+      "source_path": "docs/dhcr_fs16_overcharge.md"
+    },
+    "/docs/dhcr_fs1_stabilization/index.md": {
+      "sha256": "292f5d1b7b03be0711230f1100310338489ae221b3442b20f587d73b6fb0307d",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/dhcr_fs1_stabilization/v1.md": {
+      "sha256": "5611c5e2ee2142bc683d460b1cac5bb82c3478e63d842aa7b778cd5be165b930",
+      "doc_id": "dhcr_fs1_stabilization",
+      "source_path": "docs/dhcr_fs1_stabilization.md"
+    },
+    "/docs/dhcr_fs26_increases/index.md": {
+      "sha256": "1e7f89e7f58daa55d61c330b9323e70970e87be7f96fa68b807a146e186472ed",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/dhcr_fs26_increases/v1.md": {
+      "sha256": "a15b54823e61b2f37a96f5701b4b4942fd23a8c20609302392951be60f256474",
+      "doc_id": "dhcr_fs26_increases",
+      "source_path": "docs/dhcr_fs26_increases.md"
+    },
+    "/docs/dhcr_fs30_succession/index.md": {
+      "sha256": "bd13d72808fa5ab930e766d8e631753155373919c3569250423be64b84f5acbd",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/dhcr_fs30_succession/v1.md": {
+      "sha256": "85eb7141b2311528fecb1e8e67e33a1d96cc03acee5f2af02f66024456ca3339",
+      "doc_id": "dhcr_fs30_succession",
+      "source_path": "docs/dhcr_fs30_succession.md"
+    },
+    "/docs/dhcr_fs40_preferential/index.md": {
+      "sha256": "e6313cc50c39af9657f61f82029a57dd7f7e6f6f2813e1f714ee6e54deb6afad",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/dhcr_fs40_preferential/v1.md": {
+      "sha256": "3b946910ea113e261ae8309e298d52cd2b57c6780f3428c080dacd560cacf485",
+      "doc_id": "dhcr_fs40_preferential",
+      "source_path": "docs/dhcr_fs40_preferential.md"
+    },
+    "/docs/gol_7-103_deposit_interest/index.md": {
+      "sha256": "7605df283514f82e6d027beaab2bc92dfba6b580c540263f5412dbd656764d83",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/gol_7-103_deposit_interest/v1.md": {
+      "sha256": "8c958a6d522bf0fcc70961879670ea5eebc0199b2a40ad8b577e7eeadfe93db4",
+      "doc_id": "gol_7-103_deposit_interest",
+      "source_path": "docs/gol_7-103_deposit_interest.md"
+    },
+    "/docs/hmc_27-2018.1_bedbugs/index.md": {
+      "sha256": "34afbf668d8d362fc08ed4bc42248adb395c58a59a3fb1d371cd5ae60b58b9e0",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/hmc_27-2018.1_bedbugs/v1.md": {
+      "sha256": "9c791ee6603913b1a4a8d11173fa81bf728baaeee32597ea24030a3f93098dbc",
+      "doc_id": "hmc_27-2018.1_bedbugs",
+      "source_path": "docs/hmc_27-2018.1_bedbugs.md"
+    },
+    "/docs/hmc_27-2029_heat/index.md": {
+      "sha256": "2b4625143dd57a5714bce31a20b4c6dcd37b94947c8fa697d4ea5c6706bf7954",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/hmc_27-2029_heat/v1.md": {
+      "sha256": "fe3f84b54a9d8dadb291b7779d3a1835cff4de390c9421243b12a869bdb00713",
+      "doc_id": "hmc_27-2029_heat",
+      "source_path": "docs/hmc_27-2029_heat.md"
+    },
+    "/docs/hmc_27-2031_hot_water/index.md": {
+      "sha256": "e084d94c3587d0e6231a64c572c307d4456511b84273a7495bbc7040b998c42d",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/hmc_27-2031_hot_water/v1.md": {
+      "sha256": "608fb2d1ecb7894a3746c1f171a377c5c97c81da99ba8569187234b25c86d51d",
+      "doc_id": "hmc_27-2031_hot_water",
+      "source_path": "docs/hmc_27-2031_hot_water.md"
+    },
+    "/docs/hpd_heat_complaints/index.md": {
+      "sha256": "64df118b2be759aac1a8e9986ddf3b0d353416d06727d36ea9a78f11f9bad1a7",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/hpd_heat_complaints/v1.md": {
+      "sha256": "8fb38437bcff9436db204bbf2119cffb7002c3e266a01d27b3397a407bd1f8fe",
+      "doc_id": "hpd_heat_complaints",
+      "source_path": "docs/hpd_heat_complaints.md"
+    },
+    "/docs/index.md": {
+      "sha256": "1944b5018b843af7ec4ceb71d4fc89fbc7cb7673e82c2ef79b423bfb91f7e9c0",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/internal_listing_fields/index.md": {
+      "sha256": "25afdf5563f69c4f4c5ce961914cc8168f2292cb08aec9fe91381e7d6f774340",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/internal_listing_fields/v1.md": {
+      "sha256": "b998132a8b799c3c03bdbe5e88fa5940608517613cbd1da2e7cf4da58f0f3c6c",
+      "doc_id": "internal_listing_fields",
+      "source_path": "docs/internal_listing_fields.md"
+    },
+    "/docs/landlord_screening_guidelines/index.md": {
+      "sha256": "084abb0cdeab16a7ab46646c5ad29ee1cc4877d84450969814097441f8f440bb",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/landlord_screening_guidelines/v1.md": {
+      "sha256": "4a79411225afa4811ab4528bbb4852efe4333b8a81e1d4cca5c9ebeb00dc2ee7",
+      "doc_id": "landlord_screening_guidelines",
+      "source_path": "docs/landlord_screening_guidelines.md"
+    },
+    "/docs/nyc_admin_26-521_unlawful_eviction/index.md": {
+      "sha256": "2ea28bb999131b60c391c484d258e853ff7d8468b7c714f08504600ef8f328c3",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/nyc_admin_26-521_unlawful_eviction/v1.md": {
+      "sha256": "af1c214c9666bddb02d66b962ff622a536f10b8eab072c8a888ac964d95956e1",
+      "doc_id": "nyc_admin_26-521_unlawful_eviction",
+      "source_path": "docs/nyc_admin_26-521_unlawful_eviction.md"
+    },
+    "/docs/nyc_admin_8-107_5_soi/index.md": {
+      "sha256": "1fb447a96a56375c5f054a9ae89036947e3436a086929344cb60afa52453e351",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/nyc_admin_8-107_5_soi/v1.md": {
+      "sha256": "a241f65dc9bcdc9cfdd83abc711ea59a23ff756074f8cf62071df5b284dcc1fe",
+      "doc_id": "nyc_admin_8-107_5_soi",
+      "source_path": "docs/nyc_admin_8-107_5_soi.md"
+    },
+    "/docs/nyc_fare_act/index.md": {
+      "sha256": "93cfd9bd38e7c147e9abdc56ebe865880e67e8d14c924c75120089adc3cc148e",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/nyc_fare_act/v1.md": {
+      "sha256": "ae99052eac334a9de50344c9a3f0a3a9fd2d146c57260c305af376b176df99cd",
+      "doc_id": "nyc_fare_act",
+      "source_path": "docs/nyc_fare_act.md"
+    },
+    "/docs/nys_exec_296_5_soi/index.md": {
+      "sha256": "a914982cf477d2f33669e2cb99c7c556799599cfda4c5e9e912b8f72dc520312",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/nys_exec_296_5_soi/v1.md": {
+      "sha256": "5ef3b3f960b492aa4771f140cdecb7fd5f2c5d8cdd8fa51f9bc1ffbbd8e9571d",
+      "doc_id": "nys_exec_296_5_soi",
+      "source_path": "docs/nys_exec_296_5_soi.md"
+    },
+    "/docs/openigloo_help_fees/index.md": {
+      "sha256": "5528b2315004569e3c79dbde5e3ba61ed253bbf555786fcce8365908ceb96b12",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/openigloo_help_fees/v1.md": {
+      "sha256": "962026e6bd5f981920ac37aff85867f591e6711e61361f85f7e6f097132a4294",
+      "doc_id": "openigloo_help_fees",
+      "source_path": "docs/openigloo_help_fees.md"
+    },
+    "/docs/rgb_order_55/index.md": {
+      "sha256": "6360cc250d7bf77f5226b3555587cca1d8f46fdd5f4491a329389ca307918635",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rgb_order_55/v1.md": {
+      "sha256": "036fb7faad1d92687383e6395ea1c8a70f71bbe1479acdeea16cdaad4696f2b9",
+      "doc_id": "rgb_order_55",
+      "source_path": "docs/rgb_order_55.md"
+    },
+    "/docs/rgb_order_56/index.md": {
+      "sha256": "b953b0fec299f9ed842399539fc8b38fd9b72007dacab5921a6033bf470f1b33",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rgb_order_56/v1.md": {
+      "sha256": "95c0b2ae19cacb16262bc9a9deba74c8c23d5212e50ecd403a1f24e9d4a4a02f",
+      "doc_id": "rgb_order_56",
+      "source_path": "docs/rgb_order_56.md"
+    },
+    "/docs/rgb_order_57/index.md": {
+      "sha256": "88df50ad38fc5e494291d9eb63d018c8d648f37ebe19cb946c0016543a5b41b9",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rgb_order_57/v1.md": {
+      "sha256": "224d98ed85903495a8bb4b976116eb3d062580b810da075198759f5f8c35f39a",
+      "doc_id": "rgb_order_57",
+      "source_path": "docs/rgb_order_57.md"
+    },
+    "/docs/rpl_226-c_notice/index.md": {
+      "sha256": "42e0625210ef80af5eafe5dcc1f28fec06b5849a25fa0f58492e0e9fc84a72aa",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_226-c_notice/v1.md": {
+      "sha256": "221a6c1a90e29a06a8a82608bb749bcc69a460b055b8d924806d1d9dd7241c94",
+      "doc_id": "rpl_226-c_notice",
+      "source_path": "docs/rpl_226-c_notice.md"
+    },
+    "/docs/rpl_227-e_mitigate/index.md": {
+      "sha256": "52af89a316450fe1f54552683caea563e1fefc59672ab52063831eee3b6e5b7a",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_227-e_mitigate/v1.md": {
+      "sha256": "f7aaf530ff5f14d34d0a8469a06206bd7bdd74a63a571bfbd7c1c8af200a9f5f",
+      "doc_id": "rpl_227-e_mitigate",
+      "source_path": "docs/rpl_227-e_mitigate.md"
+    },
+    "/docs/rpl_235-b_habitability/index.md": {
+      "sha256": "45f41396ada16ed555f96f9ed5d7b1edf64c1ebbc1ebc1c434c1836e63107ff3",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_235-b_habitability/v1.md": {
+      "sha256": "e76d94bf0f0bf5cbf5e0aea44dab56cb4a8384b1477b94ea1438dd0f82e05cb4",
+      "doc_id": "rpl_235-b_habitability",
+      "source_path": "docs/rpl_235-b_habitability.md"
+    },
+    "/docs/rpl_235-e_receipts/index.md": {
+      "sha256": "2f6689a0b69b7ecf21f262790d209576bba3b9a193c31b8bcb93de82771752d6",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_235-e_receipts/v1.md": {
+      "sha256": "27a72b598b263ac3747665aaf101d0213171c857ad8cecfbba7ae4483d509d0a",
+      "doc_id": "rpl_235-e_receipts",
+      "source_path": "docs/rpl_235-e_receipts.md"
+    },
+    "/docs/rpl_238-a_fees/index.md": {
+      "sha256": "0dbce0b33d3dbd7f657c359cf3922f2b5544e2e6a26647cecc7595cabb96f6ba",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_238-a_fees/v1.md": {
+      "sha256": "545dea521af0211d710c17ab458845444af2c9e758b88d7d306fb1b1da8ffbc4",
+      "doc_id": "rpl_238-a_fees",
+      "source_path": "docs/rpl_238-a_fees.md"
+    },
+    "/docs/rpl_7-108_deposits/index.md": {
+      "sha256": "a11205746acd59dca772a929751a9207d107843fc9631e49ab196d0a4dd5411b",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_7-108_deposits/v1.md": {
+      "sha256": "9848697986eecc9183598d82e2ead83ed0c9d586b7590bc822c1e4202fcd40f1",
+      "doc_id": "rpl_7-108_deposits",
+      "source_path": "docs/rpl_7-108_deposits.md"
+    },
+    "/docs/rpl_art6a_good_cause/index.md": {
+      "sha256": "c131a568080c1642e3442f7e8f88cfe0f15574b252c6cc6a85067381bd9faf36",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/rpl_art6a_good_cause/v1.md": {
+      "sha256": "45be8a8170236f33f41bcad3bb0d5f19755aa228621af7c9cf6bea2e0c26e609",
+      "doc_id": "rpl_art6a_good_cause",
+      "source_path": "docs/rpl_art6a_good_cause.md"
+    },
+    "/docs/staff_escalation_playbook/index.md": {
+      "sha256": "d2e3502ea6f3ce59efa8f51a29469990e052a835c6e8aa393840ab97c2f43562",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/docs/staff_escalation_playbook/v1.md": {
+      "sha256": "102ba8c42ac7a140b150cd286b2565f2f44891974a439b931396e31aab8ba68f",
+      "doc_id": "staff_escalation_playbook",
+      "source_path": "docs/staff_escalation_playbook.md"
+    },
+    "/index.md": {
+      "sha256": "262dd9b488aa1c15ee903383a5d13c4afeef3606fd70f5ee0bdf942a57e7ecc7",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/eviction_and_lease_terms.md": {
+      "sha256": "61d169a17713db50265bc9c3e769f9d4e4fdae96ea45d3fcd4c775b7a3114a94",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/habitability_and_services.md": {
+      "sha256": "06a625b5969f2a007fa846b071fb0840a033386f01bb0e3148e797536c835ab7",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/index.md": {
+      "sha256": "6c9a315c5a520ad78b3311aa84cd9c3a771e8df2f21742267e90c0b1ef017e05",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/rent_payments_and_records.md": {
+      "sha256": "c8bcce4dfb18d81f447911671949870917f3f36b7b7eb16a340a5fef9efe9992",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/rent_regulation_and_guidelines.md": {
+      "sha256": "44c0d5101650b70302c4496df6abcc8abfb909dc86a657263759f195e5d4c8b7",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/shared_2b08b196f3fe.md": {
+      "sha256": "7409a7c9719f3feb32c4f3d22939c9a933deb20eaa2b7b6d99e3011c661b0b47",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/shared_517efa97a589.md": {
+      "sha256": "753ae7dd075cc55e1a8845731df3377f5ad9ce91ed7d647729575a6dae271659",
+      "doc_id": null,
+      "source_path": null
+    },
+    "/topics/shared_f2a3b3bddc1b.md": {
+      "sha256": "917d26a08ffefccd732eae8159659beabb15dfb03864996fddc3fcd4d26aedaf",
+      "doc_id": null,
+      "source_path": null
+    }
+  },
+  "edges": [
+    {
+      "kind": "links",
+      "from": "/docs/cchr_soi_guidance/index.md",
+      "to": "/docs/cchr_soi_guidance/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/cchr_soi_guidance/v1.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/cchr_soi_guidance/v1.md",
+      "to": "/docs/cchr_soi_guidance/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/index.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/claire_policy/v1.md",
+      "to": "/docs/claire_policy/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs16_overcharge/index.md",
+      "to": "/docs/dhcr_fs16_overcharge/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs16_overcharge/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs16_overcharge/v1.md",
+      "to": "/docs/dhcr_fs16_overcharge/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs1_stabilization/index.md",
+      "to": "/docs/dhcr_fs1_stabilization/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs1_stabilization/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs1_stabilization/v1.md",
+      "to": "/docs/dhcr_fs1_stabilization/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs26_increases/index.md",
+      "to": "/docs/dhcr_fs26_increases/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs26_increases/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs26_increases/v1.md",
+      "to": "/docs/dhcr_fs26_increases/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs30_succession/index.md",
+      "to": "/docs/dhcr_fs30_succession/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs30_succession/v1.md",
+      "to": "/topics/eviction_and_lease_terms.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs30_succession/v1.md",
+      "to": "/docs/dhcr_fs30_succession/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs40_preferential/index.md",
+      "to": "/docs/dhcr_fs40_preferential/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs40_preferential/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/dhcr_fs40_preferential/v1.md",
+      "to": "/docs/dhcr_fs40_preferential/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/gol_7-103_deposit_interest/index.md",
+      "to": "/docs/gol_7-103_deposit_interest/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/gol_7-103_deposit_interest/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/gol_7-103_deposit_interest/v1.md",
+      "to": "/docs/gol_7-103_deposit_interest/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2018.1_bedbugs/index.md",
+      "to": "/docs/hmc_27-2018.1_bedbugs/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2018.1_bedbugs/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2018.1_bedbugs/v1.md",
+      "to": "/docs/hmc_27-2018.1_bedbugs/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2029_heat/index.md",
+      "to": "/docs/hmc_27-2029_heat/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2029_heat/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2029_heat/v1.md",
+      "to": "/docs/hmc_27-2029_heat/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2031_hot_water/index.md",
+      "to": "/docs/hmc_27-2031_hot_water/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2031_hot_water/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hmc_27-2031_hot_water/v1.md",
+      "to": "/docs/hmc_27-2031_hot_water/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hpd_heat_complaints/index.md",
+      "to": "/docs/hpd_heat_complaints/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hpd_heat_complaints/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/hpd_heat_complaints/v1.md",
+      "to": "/docs/hpd_heat_complaints/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/openigloo_help_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/landlord_screening_guidelines/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/internal_listing_fields/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/staff_escalation_playbook/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_7-108_deposits/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_238-a_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_226-c_notice/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_227-e_mitigate/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_art6a_good_cause/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/nyc_fare_act/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_235-e_receipts/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rgb_order_55/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rgb_order_56/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rgb_order_57/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/dhcr_fs1_stabilization/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/dhcr_fs26_increases/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/dhcr_fs16_overcharge/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/dhcr_fs40_preferential/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/dhcr_fs30_succession/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/hmc_27-2029_heat/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/hmc_27-2031_hot_water/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/hmc_27-2018.1_bedbugs/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/nyc_admin_8-107_5_soi/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/cchr_soi_guidance/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/nys_exec_296_5_soi/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/nyc_admin_26-521_unlawful_eviction/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/hpd_heat_complaints/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/rpl_235-b_habitability/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/index.md",
+      "to": "/docs/gol_7-103_deposit_interest/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/internal_listing_fields/index.md",
+      "to": "/docs/internal_listing_fields/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/internal_listing_fields/v1.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/internal_listing_fields/v1.md",
+      "to": "/docs/internal_listing_fields/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/landlord_screening_guidelines/index.md",
+      "to": "/docs/landlord_screening_guidelines/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/landlord_screening_guidelines/v1.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/landlord_screening_guidelines/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/landlord_screening_guidelines/v1.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/landlord_screening_guidelines/v1.md",
+      "to": "/docs/landlord_screening_guidelines/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_26-521_unlawful_eviction/index.md",
+      "to": "/docs/nyc_admin_26-521_unlawful_eviction/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_26-521_unlawful_eviction/v1.md",
+      "to": "/topics/eviction_and_lease_terms.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_26-521_unlawful_eviction/v1.md",
+      "to": "/docs/nyc_admin_26-521_unlawful_eviction/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_8-107_5_soi/index.md",
+      "to": "/docs/nyc_admin_8-107_5_soi/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_8-107_5_soi/v1.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_admin_8-107_5_soi/v1.md",
+      "to": "/docs/nyc_admin_8-107_5_soi/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_fare_act/index.md",
+      "to": "/docs/nyc_fare_act/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_fare_act/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nyc_fare_act/v1.md",
+      "to": "/docs/nyc_fare_act/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nys_exec_296_5_soi/index.md",
+      "to": "/docs/nys_exec_296_5_soi/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nys_exec_296_5_soi/v1.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/nys_exec_296_5_soi/v1.md",
+      "to": "/docs/nys_exec_296_5_soi/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/openigloo_help_fees/index.md",
+      "to": "/docs/openigloo_help_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/openigloo_help_fees/v1.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/openigloo_help_fees/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/openigloo_help_fees/v1.md",
+      "to": "/docs/openigloo_help_fees/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_55/index.md",
+      "to": "/docs/rgb_order_55/v1.md"
+    },
+    {
+      "to": "/docs/rgb_order_56/v1.md",
+      "kind": "version",
+      "from": "/docs/rgb_order_55/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_55/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_55/v1.md",
+      "to": "/docs/rgb_order_55/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_56/index.md",
+      "to": "/docs/rgb_order_56/v1.md"
+    },
+    {
+      "to": "/docs/rgb_order_55/v1.md",
+      "kind": "version",
+      "from": "/docs/rgb_order_56/v1.md"
+    },
+    {
+      "to": "/docs/rgb_order_57/v1.md",
+      "kind": "version",
+      "from": "/docs/rgb_order_56/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_56/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_56/v1.md",
+      "to": "/docs/rgb_order_56/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_57/index.md",
+      "to": "/docs/rgb_order_57/v1.md"
+    },
+    {
+      "to": "/docs/rgb_order_56/v1.md",
+      "kind": "version",
+      "from": "/docs/rgb_order_57/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_57/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rgb_order_57/v1.md",
+      "to": "/docs/rgb_order_57/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_226-c_notice/index.md",
+      "to": "/docs/rpl_226-c_notice/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_226-c_notice/v1.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_226-c_notice/v1.md",
+      "to": "/docs/rpl_226-c_notice/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_227-e_mitigate/index.md",
+      "to": "/docs/rpl_227-e_mitigate/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_227-e_mitigate/v1.md",
+      "to": "/topics/eviction_and_lease_terms.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_227-e_mitigate/v1.md",
+      "to": "/docs/rpl_227-e_mitigate/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-b_habitability/index.md",
+      "to": "/docs/rpl_235-b_habitability/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-b_habitability/v1.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-b_habitability/v1.md",
+      "to": "/docs/rpl_235-b_habitability/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-e_receipts/index.md",
+      "to": "/docs/rpl_235-e_receipts/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-e_receipts/v1.md",
+      "to": "/topics/rent_payments_and_records.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_235-e_receipts/v1.md",
+      "to": "/docs/rpl_235-e_receipts/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_238-a_fees/index.md",
+      "to": "/docs/rpl_238-a_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_238-a_fees/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_238-a_fees/v1.md",
+      "to": "/docs/rpl_238-a_fees/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_7-108_deposits/index.md",
+      "to": "/docs/rpl_7-108_deposits/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_7-108_deposits/v1.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_7-108_deposits/v1.md",
+      "to": "/docs/rpl_7-108_deposits/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_art6a_good_cause/index.md",
+      "to": "/docs/rpl_art6a_good_cause/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_art6a_good_cause/v1.md",
+      "to": "/topics/eviction_and_lease_terms.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/rpl_art6a_good_cause/v1.md",
+      "to": "/docs/rpl_art6a_good_cause/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/staff_escalation_playbook/index.md",
+      "to": "/docs/staff_escalation_playbook/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/staff_escalation_playbook/v1.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/docs/staff_escalation_playbook/v1.md",
+      "to": "/docs/staff_escalation_playbook/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/index.md",
+      "to": "/topics/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/index.md",
+      "to": "/docs/index.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/eviction_and_lease_terms.md",
+      "to": "/docs/rpl_227-e_mitigate/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/eviction_and_lease_terms.md",
+      "to": "/docs/rpl_art6a_good_cause/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/eviction_and_lease_terms.md",
+      "to": "/docs/dhcr_fs30_succession/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/eviction_and_lease_terms.md",
+      "to": "/docs/nyc_admin_26-521_unlawful_eviction/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/hmc_27-2029_heat/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/hmc_27-2031_hot_water/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/hmc_27-2018.1_bedbugs/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/hpd_heat_complaints/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/habitability_and_services.md",
+      "to": "/docs/rpl_235-b_habitability/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/shared_517efa97a589.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/shared_2b08b196f3fe.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/rent_regulation_and_guidelines.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/eviction_and_lease_terms.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/habitability_and_services.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/shared_f2a3b3bddc1b.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/index.md",
+      "to": "/topics/rent_payments_and_records.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_payments_and_records.md",
+      "to": "/docs/rpl_235-e_receipts/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/rpl_226-c_notice/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/rgb_order_55/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/rgb_order_56/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/rgb_order_57/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/dhcr_fs1_stabilization/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/dhcr_fs26_increases/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/dhcr_fs16_overcharge/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/rent_regulation_and_guidelines.md",
+      "to": "/docs/dhcr_fs40_preferential/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/openigloo_help_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/landlord_screening_guidelines/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/rpl_7-108_deposits/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/rpl_238-a_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/nyc_fare_act/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_2b08b196f3fe.md",
+      "to": "/docs/gol_7-103_deposit_interest/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_517efa97a589.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_517efa97a589.md",
+      "to": "/docs/openigloo_help_fees/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_517efa97a589.md",
+      "to": "/docs/landlord_screening_guidelines/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_517efa97a589.md",
+      "to": "/docs/internal_listing_fields/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_517efa97a589.md",
+      "to": "/docs/staff_escalation_playbook/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_f2a3b3bddc1b.md",
+      "to": "/docs/claire_policy/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_f2a3b3bddc1b.md",
+      "to": "/docs/landlord_screening_guidelines/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_f2a3b3bddc1b.md",
+      "to": "/docs/nyc_admin_8-107_5_soi/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_f2a3b3bddc1b.md",
+      "to": "/docs/cchr_soi_guidance/v1.md"
+    },
+    {
+      "kind": "links",
+      "from": "/topics/shared_f2a3b3bddc1b.md",
+      "to": "/docs/nys_exec_296_5_soi/v1.md"
+    }
+  ],
+  "missing_links": []
+}

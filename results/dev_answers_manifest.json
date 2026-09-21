@@ -1,0 +1,2366 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "per_question": [
+    {
+      "id": "tb-0001",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0004",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0005",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0006",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0009",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 22,
+      "api_attempts": 23,
+      "input_tokens": 111440,
+      "output_tokens": 2398,
+      "latency_s": 547.578,
+      "query_attempts": 4,
+      "retry_errors": [
+        {
+          "error": "invalid_model_response",
+          "latency_s": 102.571,
+          "http_status": 502,
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 6,
+            "api_attempts": 6,
+            "input_tokens": 35574,
+            "output_tokens": 1242,
+            "latency_s": 102.565
+          }
+        },
+        {
+          "error": "service_unavailable",
+          "latency_s": 282.645,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "query_attempts": 2,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 12,
+            "api_attempts": 13,
+            "input_tokens": 63556,
+            "output_tokens": 1817,
+            "latency_s": 282.645,
+            "query_attempts": 2,
+            "usage_complete": true
+          }
+        },
+        {
+          "error": "service_unavailable",
+          "latency_s": 462.975,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "query_attempts": 3,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 17,
+            "api_attempts": 18,
+            "input_tokens": 85069,
+            "output_tokens": 1921,
+            "latency_s": 462.975,
+            "query_attempts": 3,
+            "usage_complete": true
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0010",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0011",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0012",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0016",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0017",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0018",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0019",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0021",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0022",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0023",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0027",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0028",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0029",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0030",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0031",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0032",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0035",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0036",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0037",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0101",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0102",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0103",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0104",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0105",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0108",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0110",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0111",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0115",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 14,
+      "api_attempts": 14,
+      "input_tokens": 147414,
+      "output_tokens": 833,
+      "latency_s": 437.272,
+      "query_attempts": 3,
+      "retry_errors": [
+        {
+          "error": "request_timeout",
+          "latency_s": 167.992,
+          "http_status": 503,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 6,
+            "api_attempts": 5,
+            "input_tokens": 56479,
+            "output_tokens": 107,
+            "latency_s": 167.984
+          }
+        },
+        {
+          "error": "service_unavailable",
+          "latency_s": 348.099,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "query_attempts": 2,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 9,
+            "api_attempts": 9,
+            "input_tokens": 67040,
+            "output_tokens": 156,
+            "latency_s": 348.099,
+            "query_attempts": 2,
+            "usage_complete": true
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0116",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 22,
+      "api_attempts": 24,
+      "input_tokens": 166579,
+      "output_tokens": 2595,
+      "latency_s": 457.694,
+      "query_attempts": 4,
+      "retry_errors": [
+        {
+          "error": "invalid_model_response",
+          "latency_s": 174.596,
+          "http_status": 502,
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 6,
+            "api_attempts": 7,
+            "input_tokens": 48763,
+            "output_tokens": 726,
+            "latency_s": 174.588
+          }
+        },
+        {
+          "error": "service_unavailable",
+          "latency_s": 354.639,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "query_attempts": 2,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 10,
+            "api_attempts": 12,
+            "input_tokens": 72800,
+            "output_tokens": 803,
+            "latency_s": 354.639,
+            "query_attempts": 2,
+            "usage_complete": true
+          }
+        },
+        {
+          "attempt": 1,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 6,
+            "api_attempts": 6,
+            "input_tokens": 45967,
+            "output_tokens": 669,
+            "latency_s": 53.29
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0117",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0118",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0120",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0121",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0122",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0123",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0124",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0127",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0129",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0130",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0131",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0132",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0133",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0135",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": 4,
+      "retry_errors": [
+        {
+          "error": "invalid_model_response",
+          "latency_s": 153.466,
+          "http_status": 502,
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 7,
+            "input_tokens": 103796,
+            "output_tokens": 688,
+            "latency_s": 153.459
+          }
+        },
+        {
+          "error": "request_incomplete",
+          "message": "No completed response saved; this attempt's usage is unknown.",
+          "latency_s": null,
+          "query_attempts": 2,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": null,
+            "api_attempts": null,
+            "input_tokens": null,
+            "output_tokens": null,
+            "latency_s": null,
+            "query_attempts": 2,
+            "usage_complete": false
+          }
+        },
+        {
+          "error": "service_unavailable",
+          "latency_s": null,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "query_attempts": 3,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": null,
+            "api_attempts": null,
+            "input_tokens": null,
+            "output_tokens": null,
+            "latency_s": null,
+            "query_attempts": 3,
+            "usage_complete": false
+          }
+        }
+      ],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0137",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0138",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0139",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0140",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0141",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0142",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0143",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0144",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0145",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0201",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0203",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0204",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0205",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0206",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0207",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0208",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0210",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 10,
+      "api_attempts": 10,
+      "input_tokens": 70039,
+      "output_tokens": 879,
+      "latency_s": 282.957,
+      "query_attempts": 2,
+      "retry_errors": [
+        {
+          "error": "service_unavailable",
+          "latency_s": 180.05,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 5,
+            "input_tokens": 34618,
+            "output_tokens": 97,
+            "latency_s": 180.043
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0211",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0212",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 10,
+      "api_attempts": 11,
+      "input_tokens": 74323,
+      "output_tokens": 483,
+      "latency_s": 204.569,
+      "query_attempts": 2,
+      "retry_errors": [
+        {
+          "error": "service_unavailable",
+          "latency_s": 180.038,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 6,
+            "input_tokens": 32434,
+            "output_tokens": 81,
+            "latency_s": 180.03
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0213",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 6,
+      "api_attempts": 8,
+      "input_tokens": 43858,
+      "output_tokens": 449,
+      "latency_s": 221.901,
+      "query_attempts": 2,
+      "retry_errors": [
+        {
+          "error": "service_unavailable",
+          "latency_s": 180.062,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "transport",
+            "kind": "timeout"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 1,
+            "api_attempts": 3,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "latency_s": 180.054
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0215",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 8,
+      "api_attempts": 8,
+      "input_tokens": 42903,
+      "output_tokens": 400,
+      "latency_s": 261.494,
+      "query_attempts": 2,
+      "retry_errors": [
+        {
+          "error": "request_timeout",
+          "latency_s": 179.035,
+          "http_status": 503,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 3,
+            "api_attempts": 3,
+            "input_tokens": 11159,
+            "output_tokens": 57,
+            "latency_s": 179.027
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0217",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0219",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0220",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0221",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0222",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0224",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0225",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0226",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0229",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0231",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0232",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0233",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0234",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0235",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0236",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0238",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0240",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0241",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0243",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0304",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0305",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0307",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0308",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0311",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0312",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0316",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0317",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0318",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0319",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0322",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0325",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0326",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0327",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": null,
+      "api_attempts": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "latency_s": null,
+      "query_attempts": null,
+      "retry_errors": [],
+      "usage_complete": false
+    },
+    {
+      "id": "tb-0328",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 17,
+      "api_attempts": 19,
+      "input_tokens": 120259,
+      "output_tokens": 3338,
+      "latency_s": 246.742,
+      "query_attempts": 4,
+      "retry_errors": [
+        {
+          "error": "service_unavailable",
+          "latency_s": 96.732,
+          "http_status": 503,
+          "diagnostics": {
+            "stage": "provider",
+            "http_status": 429,
+            "kind": "rate_limit"
+          },
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 3,
+            "api_attempts": 5,
+            "input_tokens": 11331,
+            "output_tokens": 77,
+            "latency_s": 96.725
+          }
+        },
+        {
+          "attempt": 1,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 5,
+            "input_tokens": 37926,
+            "output_tokens": 1435,
+            "latency_s": 31.473
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        },
+        {
+          "attempt": 2,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 5,
+            "input_tokens": 41881,
+            "output_tokens": 1210,
+            "latency_s": 51.07
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0329",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 5,
+      "api_attempts": 5,
+      "input_tokens": 25666,
+      "output_tokens": 388,
+      "latency_s": 44.835,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0331",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 6,
+      "api_attempts": 6,
+      "input_tokens": 83520,
+      "output_tokens": 1326,
+      "latency_s": 57.605,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0332",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 14,
+      "api_attempts": 14,
+      "input_tokens": 93496,
+      "output_tokens": 2502,
+      "latency_s": 105.769,
+      "query_attempts": 3,
+      "retry_errors": [
+        {
+          "attempt": 1,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 5,
+            "input_tokens": 31459,
+            "output_tokens": 1008,
+            "latency_s": 24.178
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        },
+        {
+          "attempt": 2,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 5,
+            "api_attempts": 5,
+            "input_tokens": 31449,
+            "output_tokens": 957,
+            "latency_s": 60.245
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0335",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 10,
+      "api_attempts": 10,
+      "input_tokens": 53027,
+      "output_tokens": 1789,
+      "latency_s": 190.413,
+      "query_attempts": 2,
+      "retry_errors": [
+        {
+          "attempt": 1,
+          "error": "invalid_model_response",
+          "http_status": 502,
+          "usage": {
+            "model": "gemini-3.5-flash-lite",
+            "model_calls": 6,
+            "api_attempts": 6,
+            "input_tokens": 35221,
+            "output_tokens": 1347,
+            "latency_s": 117.561
+          },
+          "diagnostics": {
+            "stage": "answer_validation",
+            "detail": "Citation is not in the eligible evidence read for that section"
+          }
+        }
+      ],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0337",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 4,
+      "api_attempts": 4,
+      "input_tokens": 20427,
+      "output_tokens": 123,
+      "latency_s": 61.766,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0338",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 3,
+      "api_attempts": 3,
+      "input_tokens": 17871,
+      "output_tokens": 127,
+      "latency_s": 62.48,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "tb-0339",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 3,
+      "api_attempts": 3,
+      "input_tokens": 17716,
+      "output_tokens": 128,
+      "latency_s": 68.288,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    }
+  ],
+  "errors": [],
+  "pending_ids": [],
+  "complete": true,
+  "usage_complete": false,
+  "requests": {
+    "tb-0001": {
+      "id": "tb-0001",
+      "question": "I hold a CityFHEPS voucher and a broker told me the landlord doesn't take programs. What should I do?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0004": {
+      "id": "tb-0004",
+      "question": "A listing on openigloo says no fee, but after I applied the agent asked for one month's rent as a broker fee. Do I have to pay it?",
+      "role": "renter",
+      "as_of": "2025-08-15"
+    },
+    "tb-0005": {
+      "id": "tb-0005",
+      "question": "A listing on openigloo says no fee, but the agent asked me for a broker fee when I applied. Do I have to pay it?",
+      "role": "renter",
+      "as_of": "2025-05-01"
+    },
+    "tb-0006": {
+      "id": "tb-0006",
+      "question": "A landlord on openigloo wants two months' security deposit because the building is a two-family house he lives in. Is that allowed on openigloo?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0009": {
+      "id": "tb-0009",
+      "question": "Should I just stop paying rent until the landlord fixes the hot water?",
+      "role": "renter",
+      "as_of": "2025-11-15"
+    },
+    "tb-0010": {
+      "id": "tb-0010",
+      "question": "What income requirement do openigloo landlords apply to applicants?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0011": {
+      "id": "tb-0011",
+      "question": "What income requirement may I apply to an applicant who pays part of the rent with a voucher?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "tb-0012": {
+      "id": "tb-0012",
+      "question": "Why was my application declined? What are the criteria?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0016": {
+      "id": "tb-0016",
+      "question": "A discrimination report just came in from the assistant. What is the handling deadline and what happens after two confirmed reports against the same landlord?",
+      "role": "staff",
+      "as_of": "2025-09-01"
+    },
+    "tb-0017": {
+      "id": "tb-0017",
+      "question": "How does openigloo decide whether a building is rent stabilized? Is there a flag I can check?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "tb-0018": {
+      "id": "tb-0018",
+      "question": "What happens when a renter reports being asked for a deposit above one month? How fast do we contact the landlord?",
+      "role": "staff",
+      "as_of": "2025-09-01"
+    },
+    "tb-0019": {
+      "id": "tb-0019",
+      "question": "When does the assistant hand a conversation to a human?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0021": {
+      "id": "tb-0021",
+      "question": "On openigloo, does a landlord have to show the broker fee before I message them, even if the listing was created before the FARE Act?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0022": {
+      "id": "tb-0022",
+      "question": "Can I ask the assistant whether I should sign a lease rider that waives my right to a jury trial?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0023": {
+      "id": "tb-0023",
+      "question": "What is the fee_payer_declared field and what happens to a listing where it says renter but no amount is given?",
+      "role": "staff",
+      "as_of": "2025-09-01"
+    },
+    "tb-0027": {
+      "id": "tb-0027",
+      "question": "What are the moderation notes on my listing and why was it held?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "tb-0028": {
+      "id": "tb-0028",
+      "question": "Can I decline an applicant because they had a housing court case two years ago? What does openigloo say?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0029": {
+      "id": "tb-0029",
+      "question": "Can I decline an applicant because they had a housing court case two years ago?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "tb-0030": {
+      "id": "tb-0030",
+      "question": "How long does openigloo staff have to contact me after I report that a broker demanded a fee on a no-fee listing?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0031": {
+      "id": "tb-0031",
+      "question": "A renter reported me for asking for a fee. How many violations before openigloo removes my listing?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "tb-0032": {
+      "id": "tb-0032",
+      "question": "If I get declined, does the landlord have to tell me in writing, and does openigloo require it?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0035": {
+      "id": "tb-0035",
+      "question": "Why don't we show the stabilization_hint to renters?",
+      "role": "staff",
+      "as_of": "2025-09-01"
+    },
+    "tb-0036": {
+      "id": "tb-0036",
+      "question": "What priority does a report of court papers get and what phone numbers do we give the renter?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0037": {
+      "id": "tb-0037",
+      "question": "A renter asked the assistant the same question three times and got handed to us. What are we supposed to do with it?",
+      "role": "staff",
+      "as_of": "2025-09-01"
+    },
+    "tb-0101": {
+      "id": "tb-0101",
+      "question": "My landlord says he is keeping part of my deposit to repaint because the walls are scuffed, and some of the scuffs were there when I moved in from the tenant before me. Can he do that?",
+      "role": "renter",
+      "as_of": "2025-03-10"
+    },
+    "tb-0102": {
+      "id": "tb-0102",
+      "question": "My tenant is moving out at the end of next month and asked to walk through the apartment with me before she leaves. Do I have to do that, and when does it happen?",
+      "role": "landlord",
+      "as_of": "2024-07-01"
+    },
+    "tb-0103": {
+      "id": "tb-0103",
+      "question": "I'm buying shares in a co-op and the building wants a security deposit equal to three months' maintenance before I move in. I thought deposits were capped at one month. Does the cap apply to me?",
+      "role": "renter",
+      "as_of": "2025-05-05"
+    },
+    "tb-0104": {
+      "id": "tb-0104",
+      "question": "Can I charge a $75 application fee to cover my time reviewing applications for my rental unit?",
+      "role": "landlord",
+      "as_of": "2023-09-01"
+    },
+    "tb-0105": {
+      "id": "tb-0105",
+      "question": "My lease says there's a $100 late fee if rent isn't paid by the 2nd of the month. I signed it, so am I stuck with that?",
+      "role": "renter",
+      "as_of": "2022-02-01"
+    },
+    "tb-0108": {
+      "id": "tb-0108",
+      "question": "My lease ends next month and my landlord just told me verbally that he isn't renewing. I never got anything in writing. Do I have to be out when the lease ends?",
+      "role": "renter",
+      "as_of": "2023-04-15"
+    },
+    "tb-0110": {
+      "id": "tb-0110",
+      "question": "I had to move out eight months early for a job. My landlord says he'll just leave the apartment empty and bill me the rent every month until the lease ends. Can he do that?",
+      "role": "renter",
+      "as_of": "2024-10-01"
+    },
+    "tb-0111": {
+      "id": "tb-0111",
+      "question": "My standard lease has a clause saying I have no obligation to re-let the apartment if the tenant leaves before the term ends. Can I rely on that clause?",
+      "role": "landlord",
+      "as_of": "2021-06-01"
+    },
+    "tb-0115": {
+      "id": "tb-0115",
+      "question": "I personally own eight rental units across two buildings in Brooklyn and nothing else in New York. Does the Good Cause Eviction law apply to my tenants?",
+      "role": "landlord",
+      "as_of": "2025-01-15"
+    },
+    "tb-0116": {
+      "id": "tb-0116",
+      "question": "I hired a broker myself to find me an apartment in Manhattan and she found one. Now that the FARE Act is in effect, does that mean I don't have to pay her either?",
+      "role": "renter",
+      "as_of": "2025-10-01"
+    },
+    "tb-0117": {
+      "id": "tb-0117",
+      "question": "I moved out of my market-rate apartment last week. How many days does my landlord have to return my security deposit?",
+      "role": "renter",
+      "as_of": "2025-06-01"
+    },
+    "tb-0118": {
+      "id": "tb-0118",
+      "question": "What is the most I can charge an applicant for running a credit and background check?",
+      "role": "landlord",
+      "as_of": "2024-03-01"
+    },
+    "tb-0120": {
+      "id": "tb-0120",
+      "question": "If I'm found to have willfully violated the security deposit rules, what's my maximum exposure beyond the deposit itself?",
+      "role": "landlord",
+      "as_of": "2023-11-01"
+    },
+    "tb-0121": {
+      "id": "tb-0121",
+      "question": "What are the civil penalties under the FARE Act if a landlord's agent charges a tenant a broker fee?",
+      "role": "staff",
+      "as_of": "2025-12-01"
+    },
+    "tb-0122": {
+      "id": "tb-0122",
+      "question": "I'm renting a two-bedroom in Queens for $6,500 a month in a big market-rate building. Is my apartment covered by Good Cause Eviction?",
+      "role": "renter",
+      "as_of": "2025-06-15"
+    },
+    "tb-0123": {
+      "id": "tb-0123",
+      "question": "For a 2025 renewal in New York City, what is the Good Cause local rent standard, the percentage above which a rent increase is presumed unreasonable?",
+      "role": "staff",
+      "as_of": "2025-10-01"
+    },
+    "tb-0124": {
+      "id": "tb-0124",
+      "question": "My rent is due on the 1st and I paid on the 4th. My landlord added a $50 late fee. Can he charge that?",
+      "role": "renter",
+      "as_of": "2026-03-05"
+    },
+    "tb-0127": {
+      "id": "tb-0127",
+      "question": "My listing agent collects a broker fee from the tenants she places in my Brooklyn building. Am I, as the landlord, on the hook for that under New York City law?",
+      "role": "landlord",
+      "as_of": "2025-03-01"
+    },
+    "tb-0129": {
+      "id": "tb-0129",
+      "question": "I rent a market-rate apartment in a 40-unit building in the Bronx built in 1960, owned by a big management company. My landlord says he won't renew my lease and won't give a reason. Does he need a reason?",
+      "role": "renter",
+      "as_of": "2024-03-01"
+    },
+    "tb-0130": {
+      "id": "tb-0130",
+      "question": "I rent a market-rate apartment in a 40-unit building in the Bronx built in 1960, owned by a big management company. My landlord says he won't renew my lease and won't give a reason. Does he need a reason?",
+      "role": "renter",
+      "as_of": "2024-09-01"
+    },
+    "tb-0131": {
+      "id": "tb-0131",
+      "question": "My landlord wants to raise my rent by 10% when my one-year lease renews. How much advance written notice does New York law require him to give me?",
+      "role": "renter",
+      "as_of": "2019-08-01"
+    },
+    "tb-0132": {
+      "id": "tb-0132",
+      "question": "My landlord wants to raise my rent by 10% when my one-year lease renews. How much advance written notice does New York law require him to give me?",
+      "role": "renter",
+      "as_of": "2020-01-15"
+    },
+    "tb-0133": {
+      "id": "tb-0133",
+      "question": "I'm about to sign a lease through the landlord's broker in Manhattan. Does the landlord or broker have to give me a written, itemized list of every fee I'll owe before I sign?",
+      "role": "renter",
+      "as_of": "2025-05-15"
+    },
+    "tb-0135": {
+      "id": "tb-0135",
+      "question": "My landlord sent me a written notice that he's not renewing my lease on my market-rate apartment in Brooklyn. Does that notice have to say whether my apartment is covered by the Good Cause Eviction law?",
+      "role": "renter",
+      "as_of": "2024-06-01"
+    },
+    "tb-0137": {
+      "id": "tb-0137",
+      "question": "My rent is $2,000 and my landlord has charged me a $150 late fee every month for the last six months. How much of that can I get back?",
+      "role": "renter",
+      "as_of": "2025-11-20"
+    },
+    "tb-0138": {
+      "id": "tb-0138",
+      "question": "An openigloo listing for a summer rental in the Rockaways asks for two months' security deposit. The landlord says the law allows it because the unit is registered as a seasonal-use dwelling. Is that allowed on openigloo?",
+      "role": "renter",
+      "as_of": "2025-07-15"
+    },
+    "tb-0139": {
+      "id": "tb-0139",
+      "question": "An openigloo listing is marked \"fee\" but doesn't say how much. The agent told me the law only requires him to disclose the fee in writing before I sign the lease. Is the listing okay as it is?",
+      "role": "renter",
+      "as_of": "2025-09-10"
+    },
+    "tb-0140": {
+      "id": "tb-0140",
+      "question": "I broke my lease four months ago and my old landlord never re-listed the apartment. Now he's suing me for the rest of the year's rent. Should I countersue him?",
+      "role": "renter",
+      "as_of": "2026-04-10"
+    },
+    "tb-0141": {
+      "id": "tb-0141",
+      "question": "I created my listing on openigloo in early 2024 and my agent has always charged the tenant one month's rent as a fee. Do I need to change the listing now that the FARE Act is in effect?",
+      "role": "landlord",
+      "as_of": "2025-09-20"
+    },
+    "tb-0142": {
+      "id": "tb-0142",
+      "question": "I'm moving across the river to Jersey City. What's the maximum security deposit a landlord in New Jersey can ask for?",
+      "role": "renter",
+      "as_of": "2025-08-01"
+    },
+    "tb-0143": {
+      "id": "tb-0143",
+      "question": "I'm 66 and rent stabilized in Manhattan. How do I qualify for SCRIE so my rent gets frozen?",
+      "role": "renter",
+      "as_of": "2026-01-15"
+    },
+    "tb-0144": {
+      "id": "tb-0144",
+      "question": "I'm renting out my condo unit in Queens and the condo board wants a $500 move-in fee from my tenant and board approval of the lease. Can the board require that?",
+      "role": "landlord",
+      "as_of": "2024-05-01"
+    },
+    "tb-0145": {
+      "id": "tb-0145",
+      "question": "My lease says no pets, but I've had my dog openly in the apartment for four months and the landlord never said anything. Can he still evict me over the dog?",
+      "role": "renter",
+      "as_of": "2025-04-01"
+    },
+    "tb-0201": {
+      "id": "tb-0201",
+      "question": "My building in Queens went up in 1961 and doesn't get any tax break. Is it probably rent stabilized or rent controlled?",
+      "role": "renter",
+      "as_of": "2025-04-10"
+    },
+    "tb-0203": {
+      "id": "tb-0203",
+      "question": "I've paid a preferential rent since 2021 that's a few hundred dollars below the legal rent on my lease. At renewal my landlord says he's switching me to the full legal rent. Is that allowed?",
+      "role": "renter",
+      "as_of": "2025-08-20"
+    },
+    "tb-0204": {
+      "id": "tb-0204",
+      "question": "I give tenants a preferential rent. What do I have to put in the lease so I can go back to the legal regulated rent when the apartment turns over?",
+      "role": "landlord",
+      "as_of": "2024-09-05"
+    },
+    "tb-0205": {
+      "id": "tb-0205",
+      "question": "My lease says my discounted rent goes away if I'm ever late paying or if I don't pay by autopay. My landlord is now trying to enforce that. Can he?",
+      "role": "renter",
+      "as_of": "2025-01-20"
+    },
+    "tb-0206": {
+      "id": "tb-0206",
+      "question": "My partner and I aren't married but we've lived together in her rent stabilized apartment for three years and share everything. If she moves out, can I take over the lease?",
+      "role": "renter",
+      "as_of": "2024-06-15"
+    },
+    "tb-0207": {
+      "id": "tb-0207",
+      "question": "I'm 66 and moved into my daughter's rent stabilized apartment 15 months ago. She's relocating for work and giving up the lease. Do I have succession rights even though I haven't been here two years?",
+      "role": "renter",
+      "as_of": "2025-05-12"
+    },
+    "tb-0208": {
+      "id": "tb-0208",
+      "question": "I've lived with my brother in his stabilized apartment since 2022, but I was away on active military duty for eight months last year. Does that gap break the two-year residency I need for succession?",
+      "role": "renter",
+      "as_of": "2025-02-01"
+    },
+    "tb-0210": {
+      "id": "tb-0210",
+      "question": "DHCR just issued an order saying my landlord overcharged me and set a penalty. How do I actually get the money?",
+      "role": "renter",
+      "as_of": "2025-09-10"
+    },
+    "tb-0211": {
+      "id": "tb-0211",
+      "question": "My landlord filed a PAR against the overcharge order DHCR issued in my favor. Do I have to keep paying the old, higher rent while the PAR is pending?",
+      "role": "renter",
+      "as_of": "2025-11-05"
+    },
+    "tb-0212": {
+      "id": "tb-0212",
+      "question": "DHCR awarded me an $800 overcharge penalty and I still live in the apartment. Can I file it as a judgment against the building instead of deducting it from rent?",
+      "role": "renter",
+      "as_of": "2026-01-15"
+    },
+    "tb-0213": {
+      "id": "tb-0213",
+      "question": "I want to put a new refrigerator and stove in an occupied stabilized apartment and raise the rent for it. What do I need from the tenant and from DHCR?",
+      "role": "landlord",
+      "as_of": "2025-03-15"
+    },
+    "tb-0215": {
+      "id": "tb-0215",
+      "question": "What are the one-year and two-year guideline percentages under Rent Guidelines Board Order #56?",
+      "role": "landlord",
+      "as_of": "2025-02-01"
+    },
+    "tb-0217": {
+      "id": "tb-0217",
+      "question": "What renewal percentages did the Rent Guidelines Board adopt in Order #57 for apartments?",
+      "role": "landlord",
+      "as_of": "2025-10-15"
+    },
+    "tb-0219": {
+      "id": "tb-0219",
+      "question": "If DHCR finds my landlord's overcharge was willful, how much is the penalty and how far back does it reach?",
+      "role": "renter",
+      "as_of": "2025-08-01"
+    },
+    "tb-0220": {
+      "id": "tb-0220",
+      "question": "How long does a family member have to live with a rent stabilized tenant before they can claim succession rights?",
+      "role": "renter",
+      "as_of": "2024-03-01"
+    },
+    "tb-0221": {
+      "id": "tb-0221",
+      "question": "What are the current cost limits and maximum monthly increases for individual apartment improvements in a 20-unit building?",
+      "role": "landlord",
+      "as_of": "2025-01-15"
+    },
+    "tb-0222": {
+      "id": "tb-0222",
+      "question": "DHCR approved my MCI application for a new boiler in a 50-unit building. How much can I collect per year, over how many years is the cost spread, and when does the increase come off the rent?",
+      "role": "landlord",
+      "as_of": "2025-04-01"
+    },
+    "tb-0224": {
+      "id": "tb-0224",
+      "question": "A stabilized tenant's one-year renewal lease commences March 1, 2025. Which Rent Guidelines Board order governs and what is the one-year increase?",
+      "role": "landlord",
+      "as_of": "2025-02-10"
+    },
+    "tb-0225": {
+      "id": "tb-0225",
+      "question": "A renter is choosing a two-year renewal on a stabilized lease that starts December 1, 2025. What order applies and what is the two-year guideline I can quote to a landlord who asks?",
+      "role": "staff",
+      "as_of": "2025-11-12"
+    },
+    "tb-0226": {
+      "id": "tb-0226",
+      "question": "A renter is choosing a two-year renewal on a stabilized lease that starts August 1, 2024. What order applies and what is the two-year guideline I can quote to a landlord who asks?",
+      "role": "staff",
+      "as_of": "2024-07-15"
+    },
+    "tb-0229": {
+      "id": "tb-0229",
+      "question": "A rent controlled apartment became vacant on March 1, 2024 and the new tenant is asking DHCR to set the initial stabilized rent. What special guideline above the maximum base rent applies?",
+      "role": "staff",
+      "as_of": "2024-03-20"
+    },
+    "tb-0231": {
+      "id": "tb-0231",
+      "question": "I own an Article 7-C loft building. For a two-year increase period commencing April 1, 2024, what increase over the base rent does the Rent Guidelines Board order allow?",
+      "role": "landlord",
+      "as_of": "2024-03-18"
+    },
+    "tb-0232": {
+      "id": "tb-0232",
+      "question": "I own an Article 7-C loft building. For a two-year increase period commencing February 1, 2025, what increase over the base rent does the Rent Guidelines Board order allow?",
+      "role": "landlord",
+      "as_of": "2025-01-20"
+    },
+    "tb-0233": {
+      "id": "tb-0233",
+      "question": "A tenant's previous lease carried a preferential rent. I sent a one-year renewal on April 30, 2019 that dropped the preferential rent and charged the full legal regulated rent, and it took effect July 1, 2019. Can I enforce that renewal at the legal rent?",
+      "role": "landlord",
+      "as_of": "2019-07-15"
+    },
+    "tb-0234": {
+      "id": "tb-0234",
+      "question": "A tenant's previous lease carried a preferential rent. Their one-year renewal at the full legal regulated rent took effect March 1, 2019, before the new rent law. Does the HSTPA rule that preferential rents are kept for the whole tenancy apply to that renewal?",
+      "role": "landlord",
+      "as_of": "2019-06-20"
+    },
+    "tb-0235": {
+      "id": "tb-0235",
+      "question": "My rent stabilized lease renews August 1, 2024 and I'm taking a one-year lease. What percent can my landlord raise my rent?",
+      "role": "renter",
+      "as_of": "2024-07-01"
+    },
+    "tb-0236": {
+      "id": "tb-0236",
+      "question": "I'm renewing my stabilized apartment for two years starting March 1, 2025. Exactly how much more will I be paying?",
+      "role": "renter",
+      "as_of": "2025-02-15"
+    },
+    "tb-0238": {
+      "id": "tb-0238",
+      "question": "My legal rent is $1,900 but I've been paying $2,100 a month for three years. Can you tell me how much I'm owed, and what it comes to with treble damages?",
+      "role": "renter",
+      "as_of": "2025-09-01"
+    },
+    "tb-0240": {
+      "id": "tb-0240",
+      "question": "I pulled my apartment's rent registration history from DHCR. If I paste it here, can you go through it and total up what I've been overcharged since 2019?",
+      "role": "renter",
+      "as_of": "2025-11-10"
+    },
+    "tb-0241": {
+      "id": "tb-0241",
+      "question": "I'm 67 and on a fixed income in a stabilized apartment. What is the income limit for SCRIE and how do I freeze my rent?",
+      "role": "renter",
+      "as_of": "2025-10-01"
+    },
+    "tb-0243": {
+      "id": "tb-0243",
+      "question": "A rent controlled tenant asked what the Maximum Base Rent increase percentage is for the 2026-2027 MBR cycle. What is the figure?",
+      "role": "staff",
+      "as_of": "2026-03-01"
+    },
+    "tb-0304": {
+      "id": "tb-0304",
+      "question": "I've been crashing at a friend's apartment for about two weeks, no lease, my name isn't on anything. The building owner says I have to leave today. Does the NYC unlawful eviction law protect me?",
+      "role": "renter",
+      "as_of": "2021-08-20"
+    },
+    "tb-0305": {
+      "id": "tb-0305",
+      "question": "My super removed a tenant's belongings and locked her out while I was away. She has asked to be let back in. What does the law require me to do now?",
+      "role": "landlord",
+      "as_of": "2023-10-05"
+    },
+    "tb-0307": {
+      "id": "tb-0307",
+      "question": "I own a 12-unit building. Do I have to hand every tenant the annual bedbug filing, or is posting it in the lobby enough?",
+      "role": "landlord",
+      "as_of": "2022-01-15"
+    },
+    "tb-0308": {
+      "id": "tb-0308",
+      "question": "I signed a new lease last month and never got any bedbug history notice. What can I actually do about it?",
+      "role": "renter",
+      "as_of": "2024-09-10"
+    },
+    "tb-0311": {
+      "id": "tb-0311",
+      "question": "I run a two-family house in Rochester and live on the first floor. I posted the second-floor apartment online saying 'no Section 8'. Does the state source of income law reach me?",
+      "role": "landlord",
+      "as_of": "2022-05-01"
+    },
+    "tb-0312": {
+      "id": "tb-0312",
+      "question": "My landlord put my security deposit in a bank. Is he supposed to tell me anything about that?",
+      "role": "renter",
+      "as_of": "2020-07-01"
+    },
+    "tb-0316": {
+      "id": "tb-0316",
+      "question": "An HPD inspector came at 1 pm, my apartment was 63 degrees, but she said she couldn't write a violation because it was 58 outside. How is that possible?",
+      "role": "renter",
+      "as_of": "2025-10-20"
+    },
+    "tb-0317": {
+      "id": "tb-0317",
+      "question": "It's January and my apartment feels freezing. What temperature does my landlord legally have to keep it at during the day and at night?",
+      "role": "renter",
+      "as_of": "2026-01-15"
+    },
+    "tb-0318": {
+      "id": "tb-0318",
+      "question": "What are the exact dates of heat season in New York City?",
+      "role": "renter",
+      "as_of": "2023-09-25"
+    },
+    "tb-0319": {
+      "id": "tb-0319",
+      "question": "How hot does the hot water have to be in my apartment, and is there a time of day it has to be available?",
+      "role": "renter",
+      "as_of": "2024-07-08"
+    },
+    "tb-0322": {
+      "id": "tb-0322",
+      "question": "A broker wants a $75 application fee before he'll even show me the apartment. What's the most he can charge?",
+      "role": "renter",
+      "as_of": "2023-06-01"
+    },
+    "tb-0325": {
+      "id": "tb-0325",
+      "question": "What indoor temperature does my landlord have to maintain overnight when it's mild outside, say 50 degrees at 2 am?",
+      "role": "renter",
+      "as_of": "2017-09-15"
+    },
+    "tb-0326": {
+      "id": "tb-0326",
+      "question": "What indoor temperature does my landlord have to maintain overnight when it's mild outside, say 50 degrees at 2 am?",
+      "role": "renter",
+      "as_of": "2018-01-15"
+    },
+    "tb-0327": {
+      "id": "tb-0327",
+      "question": "I live in Buffalo and have a Section 8 voucher. The landlord said he doesn't rent to voucher holders. Does New York State law prohibit that?",
+      "role": "renter",
+      "as_of": "2018-06-01"
+    },
+    "tb-0328": {
+      "id": "tb-0328",
+      "question": "I live in Buffalo and have a Section 8 voucher. The landlord said he doesn't rent to voucher holders. Does New York State law prohibit that?",
+      "role": "renter",
+      "as_of": "2020-06-01"
+    },
+    "tb-0329": {
+      "id": "tb-0329",
+      "question": "My radiator is stone cold and it's chilly at night. Is my landlord required to be giving me heat right now?",
+      "role": "renter",
+      "as_of": "2025-07-15"
+    },
+    "tb-0331": {
+      "id": "tb-0331",
+      "question": "The broker was super responsive until I mentioned my CityFHEPS voucher, then she went silent. Did she discriminate against me?",
+      "role": "renter",
+      "as_of": "2025-10-01"
+    },
+    "tb-0332": {
+      "id": "tb-0332",
+      "question": "Mice, a broken boiler, and a ceiling leak for two months. Should I sue my landlord under the warranty of habitability?",
+      "role": "renter",
+      "as_of": "2024-11-01"
+    },
+    "tb-0335": {
+      "id": "tb-0335",
+      "question": "The hot water in my shower is barely lukewarm. My landlord is clearly negligent, so can I just deduct the cost of a space heater and an electric shower head from next month's rent?",
+      "role": "renter",
+      "as_of": "2025-03-01"
+    },
+    "tb-0337": {
+      "id": "tb-0337",
+      "question": "I rent in Jersey City. What temperature does my landlord have to keep my apartment at in winter under New Jersey law?",
+      "role": "renter",
+      "as_of": "2025-12-10"
+    },
+    "tb-0338": {
+      "id": "tb-0338",
+      "question": "I have a six-year-old. Is my landlord required to install window guards, and how do I request them?",
+      "role": "renter",
+      "as_of": "2024-03-18"
+    },
+    "tb-0339": {
+      "id": "tb-0339",
+      "question": "How many smoke and carbon monoxide detectors do I have to install in each apartment, and can I charge the tenant for them?",
+      "role": "landlord",
+      "as_of": "2023-08-22"
+    }
+  }
+}

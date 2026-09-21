@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tenant Book</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #23322c;
+        --muted: #718078;
+        --line: #e3e9e5;
+        --green: #226449;
+        --soft: #edf5ef;
+        --background: #f5f7f6;
+      }
+      * { box-sizing: border-box; }
+      [hidden] { display: none !important; }
+      body {
+        margin: 0;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        background: var(--background);
+        color: var(--ink);
+        font: 14px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      button, input, select, textarea { font: inherit; }
+      button, summary { cursor: pointer; }
+      button:disabled { opacity: .55; cursor: wait; }
+      button, input, select, textarea, a, summary, [tabindex] { outline-offset: 3px; }
+      :focus-visible { outline: 3px solid #83b9a4; }
+      button { color: inherit; }
+      .topbar { flex-shrink: 0; height: 62px; border-bottom: 1px solid var(--line); background: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 28px; }
+      .brand { display: flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 700; letter-spacing: -.5px; }
+      .brand-icon { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 9px; background: var(--green); color: #fff; }
+      .small, .topbar-note { color: var(--muted); font-size: 12px; }
+      main { width: 100%; max-width: 1600px; margin: 0 auto; padding: 22px 28px; display: flex; flex-direction: column; gap: 18px; flex: 1; min-height: 0; }
+      .composer, .result, .source-panel, .exploration { background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 3px 12px #253b2d03; }
+      .composer { padding: 16px 20px 12px; flex-shrink: 0; }
+      h1 { font-size: 14px; font-weight: 600; margin: 0 0 8px; letter-spacing: -.15px; }
+      .question-row { display: flex; gap: 20px; align-items: center; }
+      textarea { display: block; border: 0; border-radius: 5px; padding: 3px 0; flex: 1; min-width: 0; height: 56px; max-height: 130px; resize: vertical; color: var(--ink); background: #fff; font-size: 16px; line-height: 1.55; }
+      textarea::placeholder { color: #8a958e; }
+      .primary { display: inline-flex; align-items: center; justify-content: center; gap: 24px; border: 0; border-radius: 9px; background: var(--green); color: #fff; padding: 11px 18px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+      .primary:hover { background: #174b35; }
+      .composer-footer { display: flex; gap: 14px; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); padding-top: 10px; margin-top: 9px; }
+      .controls { display: flex; gap: 18px; }
+      .control { display: flex; gap: 7px; align-items: center; min-width: 0; }
+      .control label { font-size: 11px; color: var(--muted); white-space: nowrap; }
+      input, select { min-width: 0; max-width: 100%; border: 0; border-radius: 5px; background: #f6f8f6; padding: 5px 7px; font-size: 12px; color: var(--ink); min-height: 32px; }
+      .examples { display: flex; flex-wrap: wrap; gap: 6px; }
+      .example { border: 1px solid var(--line); background: #fff; color: #65766b; border-radius: 6px; padding: 4px 9px; font-size: 11px; }
+      .example:hover { border-color: #a6c0b0; color: var(--green); background: var(--soft); }
+      .workspace { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; flex: 1; min-height: 0; }
+      .result { min-width: 0; overflow-y: auto; padding: 26px; scroll-behavior: smooth; }
+      .result.empty { display: grid; place-items: center; }
+      .empty-state { text-align: center; color: var(--muted); max-width: 270px; margin: auto; padding: 32px 10px; }
+      .empty-symbol { display: grid; place-items: center; width: 44px; height: 44px; margin: 0 auto 14px; background: #f1f6f2; border: 1px solid #e2ece5; border-radius: 13px; color: #759881; font-size: 22px; }
+      .empty-state h2 { font-size: 16px; color: var(--ink); font-weight: 550; margin: 0 0 5px; }
+      .empty-state p { font-size: 12px; margin: 0; }
+      .result-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 20px; }
+      .result h2 { font-size: 18px; line-height: 1.4; margin: 0; letter-spacing: -.4px; }
+      .result-context { display: block; font-size: 11px; color: var(--muted); margin-top: 5px; font-weight: 400; }
+      .badge { display: inline-flex; border-radius: 20px; font-size: 10px; font-weight: 600; color: var(--green); background: var(--soft); padding: 4px 9px; white-space: nowrap; }
+      .badge.restricted { color: #855b19; background: #fff3db; }
+      .badge.absent { color: #65607a; background: #f1eff8; }
+      .badge.error { color: #a33434; background: #fff0ef; }
+      .answer-text { white-space: pre-wrap; font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+      .callout { background: #f5f9f6; border: 1px solid #e2ece5; border-radius: 9px; padding: 12px 14px; margin-top: 18px; font-size: 12px; }
+      .callout p { margin: 5px 0; }
+      .callout.version { color: #775a23; background: #fffbf0; border-color: #f0e5cc; }
+      .evidence-heading { display: flex; justify-content: space-between; align-items: center; margin: 26px 0 8px; font-size: 12px; font-weight: 600; }
+      .evidence-heading span { color: var(--muted); font-size: 11px; font-weight: 400; }
+      .citation { width: 100%; display: flex; align-items: start; gap: 10px; text-align: left; border: 1px solid var(--line); background: #fff; border-radius: 9px; margin-top: 8px; padding: 12px; }
+      .citation:hover, .citation[aria-pressed="true"] { border-color: #94b6a6; background: #f5faf6; }
+      .citation-number { flex: 0 0 23px; height: 23px; border-radius: 6px; background: var(--soft); color: var(--green); text-align: center; font-size: 10px; font-weight: 650; line-height: 23px; }
+      .citation-copy { flex: 1; min-width: 0; }
+      .citation strong { display: block; font-size: 12px; line-height: 1.5; }
+      .citation small { display: block; color: var(--muted); font-size: 10px; margin: 3px 0 5px; }
+      .citation q { font-size: 12px; color: #607067; line-height: 1.65; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+      .citation-arrow { color: #789382; font-size: 16px; }
+      .research-column { display: flex; flex-direction: column; gap: 14px; min-width: 0; min-height: 0; }
+      .source-panel { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow: hidden; }
+      .source-heading { display: flex; justify-content: space-between; gap: 12px; align-items: start; padding: 18px 22px 12px; border-bottom: 1px solid var(--line); }
+      .source-heading h2 { font-size: 14px; line-height: 1.5; margin: 4px 0; letter-spacing: -.2px; }
+      .eyebrow { font-size: 9px; text-transform: uppercase; letter-spacing: 1.1px; font-weight: 650; color: #7a8a80; }
+      .secondary { background: #fff; border: 1px solid var(--line); border-radius: 7px; padding: 5px 10px; font-size: 11px; }
+      .secondary:hover { background: var(--soft); }
+      .close-button { width: 28px; height: 28px; flex-shrink: 0; display: grid; place-items: center; padding: 0; font-size: 19px; }
+      .reader-toolbar { display: flex; gap: 10px; align-items: center; justify-content: space-between; padding: 9px 22px; border-bottom: 1px solid var(--line); background: #fbfcfb; }
+      .reader-toolbar a { color: var(--green); text-decoration: none; font-size: 11px; }
+      #source-content { overflow: auto; flex: 1; min-height: 0; padding: 22px 26px 36px; scroll-behavior: smooth; }
+      #source-content.empty { display: grid; place-items: center; }
+      .document { font-size: 13px; line-height: 1.9; overflow-wrap: anywhere; }
+      .document h1 { font-size: 20px; line-height: 1.5; margin: 0 0 22px; font-weight: 650; letter-spacing: -.4px; }
+      .document h2 { font-size: 15px; line-height: 1.5; margin: 26px 0 12px; letter-spacing: -.2px; }
+      .document h3, .document h4, .document h5, .document h6 { font-size: 13px; margin: 22px 0 10px; }
+      .document p { margin: 0 0 15px; }
+      .document ul, .document ol { padding-left: 24px; }
+      .document li { margin: 6px 0; }
+      .document a { color: var(--green); text-underline-offset: 3px; }
+      .document blockquote { margin: 18px 0; border-left: 3px solid #bed0c5; padding-left: 15px; color: #58655e; }
+      .document pre { overflow-x: auto; padding: 12px; background: #f5f6f5; border-radius: 8px; }
+      .document code { font-size: .9em; background: #f3f5f3; border-radius: 3px; padding: 1px 3px; }
+      .document hr { border: 0; border-top: 1px solid var(--line); margin: 22px 0; }
+      .document table { border-collapse: collapse; width: 100%; font-size: 12px; }
+      .document td, .document th { border: 1px solid var(--line); padding: 8px; text-align: left; }
+      mark { background: #ffedb0; color: inherit; border-radius: 2px; padding: 2px 0; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+      .exploration { padding: 14px 18px; flex-shrink: 0; }
+      .exploration-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+      .exploration h2 { font-size: 12px; font-weight: 600; margin: 0; }
+      .exploration p { margin: 0; color: var(--muted); font-size: 11px; }
+      .explored-list { display: flex; gap: 6px; flex-wrap: wrap; max-height: 106px; overflow: auto; padding: 3px; margin: -3px; list-style: none; }
+      .explored-list li { max-width: 100%; }
+      .explored-item { display: flex; align-items: center; gap: 6px; max-width: 100%; padding: 5px 8px; border-radius: 6px; border: 1px solid var(--line); background: #fafcfb; font-size: 10px; color: #51665a; text-align: left; }
+      button.explored-item:hover, button.explored-item[aria-pressed="true"] { border-color: #94b6a6; background: var(--soft); }
+      .explored-label { max-width: 235px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+      .explored-type { color: var(--muted); font-size: 9px; }
+      .loading { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: 13px; margin: 0; }
+      .spinner { width: 16px; height: 16px; border: 2px solid #d7e5dd; border-top-color: var(--green); border-radius: 50%; animation: spin .8s linear infinite; flex-shrink: 0; }
+      .error-message { color: #a33434; }
+      .mobile-only { display: none; }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @media (max-width: 1050px) {
+        main { padding: 18px; gap: 14px; }
+        .workspace { gap: 14px; }
+        .result { padding: 20px; }
+        .explored-label { max-width: 185px; }
+      }
+      @media (max-width: 760px) {
+        body { height: auto; min-height: 100dvh; }
+        .topbar { height: 56px; padding: 0 18px; }
+        main { padding: 16px; }
+        .composer { padding: 14px; }
+        .composer-footer { align-items: start; flex-direction: column; gap: 10px; }
+        .controls { flex-wrap: wrap; gap: 12px; }
+        .question-row { gap: 10px; }
+        textarea { font-size: 15px; height: 72px; }
+        .primary { gap: 10px; padding: 10px 12px; }
+        .workspace { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+        .result { min-height: 250px; max-height: 65dvh; }
+        .source-panel { flex: none; height: 65dvh; min-height: 340px; }
+        .research-column { gap: 12px; }
+        .mobile-only { display: inline-block; }
+        .explored-list { max-height: 130px; }
+        #source-content { padding: 20px; }
+      }
+      @media (max-height: 690px) and (min-width: 761px) {
+        body { height: auto; min-height: 100dvh; }
+        .workspace { height: 470px; flex: none; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .spinner { animation: none; }
+        #source-content, .result { scroll-behavior: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5.5C9 3.5 5 4 3 5v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-2-1-6-1.5-9 .5Z"/><path d="M12 5.5V20"/></svg>
+        </span>
+        Tenant Book
+      </div>
+      <span class="topbar-note">New York housing</span>
+    </header>
+    <main>
+      <form id="question-form" class="composer">
+        <h1><label for="question">Ask a housing question</label></h1>
+        <div class="question-row">
+          <textarea id="question" required maxlength="12000" placeholder="What would you like to know about your lease, deposit, or housing rights?"></textarea>
+          <button class="primary" id="ask-button" type="submit">Ask <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="composer-footer">
+          <div class="controls">
+            <div class="control">
+              <label for="role">As a</label>
+              <select id="role">
+                <option value="renter">Renter</option>
+                <option value="landlord">Landlord</option>
+                <option value="staff">Staff</option>
+              </select>
+            </div>
+            <div class="control">
+              <label for="as-of">Rules as of</label>
+              <input type="date" id="as-of" required aria-label="Date the housing rules apply" />
+            </div>
+          </div>
+          <div class="examples" id="examples" aria-label="Example questions">
+            <button type="button" class="example" data-question="Can my landlord ask for two months of security deposit?">Security deposits</button>
+            <button type="button" class="example" data-question="My apartment has no hot water. What can I do?">Hot water</button>
+            <button type="button" class="example" data-question="A broker asked me to pay a fee on an openigloo listing marked no fee. What should I do?">Broker fees</button>
+          </div>
+        </div>
+      </form>
+      <div class="workspace">
+        <section id="result" class="result empty" aria-label="Answer and citations" aria-live="polite" aria-busy="false" tabindex="0">
+          <div class="empty-state"><div class="empty-symbol" aria-hidden="true">↗</div><h2>Your answer, with evidence</h2><p>Ask a question to get started.</p></div>
+        </section>
+        <div class="research-column">
+          <aside class="source-panel" id="source-panel" aria-labelledby="source-title">
+            <div class="source-heading">
+              <div>
+                <div class="eyebrow">Original document</div>
+                <h2 id="source-title" tabindex="-1">Source reader</h2>
+                <div id="source-meta" class="small"></div>
+              </div>
+              <button class="secondary close-button" id="close-source" type="button" aria-label="Clear selected source" title="Clear source (Esc)" hidden>×</button>
+            </div>
+            <div class="reader-toolbar" id="reader-toolbar" hidden>
+              <button class="secondary" id="jump-quote" type="button" disabled>Jump to quote ↓</button>
+              <button class="secondary mobile-only" id="back-answer" type="button">Answer ↑</button>
+              <a id="original-link" target="_blank" rel="noopener noreferrer" hidden>Original publication ↗</a>
+            </div>
+            <div id="source-content" class="empty" tabindex="0">
+              <div class="empty-state"><div class="empty-symbol" aria-hidden="true">§</div><h2>Read the source</h2><p>Citations open here with the exact quote highlighted.</p></div>
+            </div>
+          </aside>
+          <section class="exploration" aria-labelledby="exploration-title">
+            <div class="exploration-heading">
+              <h2 id="exploration-title">Sources explored</h2>
+              <span class="small" id="exploration-count"></span>
+            </div>
+            <p id="exploration-empty">Documents and topics visited will appear here.</p>
+            <ol class="explored-list" id="explored-list" tabindex="0" aria-label="Sources visited in order" hidden></ol>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script>
+      "use strict";
+      const $ = (id) => document.getElementById(id);
+      let controller = null, sourceController = null;
+      let generation = 0, sourceGeneration = 0, requestSequence = 0;
+      let lastRequest = null, activeCitation = null;
+      let sourceNames = new Map();
+      const today = new Date();
+      $("as-of").value = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
+
+      function requestId() {
+        if (typeof globalThis.crypto?.randomUUID === "function") return globalThis.crypto.randomUUID();
+        // Correlation ID only; also works on HTTP origins without randomUUID.
+        return "web-" + Date.now().toString(36) + "-" + (++requestSequence).toString(36) + "-" + Math.random().toString(36).slice(2, 10);
+      }
+      function element(tag, text, className) {
+        const node = document.createElement(tag);
+        if (text !== undefined) node.textContent = text;
+        if (className) node.className = className;
+        return node;
+      }
+      function emptyState(symbol, title, description) {
+        const box = element("div", undefined, "empty-state");
+        const icon = element("div", symbol, "empty-symbol");
+        icon.setAttribute("aria-hidden", "true");
+        box.append(icon, element("h2", title), element("p", description));
+        return box;
+      }
+      function resetSource(restoreFocus = false) {
+        sourceGeneration++;
+        if (sourceController) sourceController.abort();
+        sourceController = null;
+        $("source-title").textContent = "Source reader";
+        $("source-meta").textContent = "";
+        $("reader-toolbar").hidden = true;
+        $("close-source").hidden = true;
+        $("original-link").hidden = true;
+        $("jump-quote").disabled = true;
+        $("source-content").classList.add("empty");
+        $("source-content").replaceChildren(emptyState("§", "Read the source", "Citations open here with the exact quote highlighted."));
+        if (activeCitation) {
+          activeCitation.setAttribute("aria-pressed", "false");
+          if (restoreFocus && activeCitation.isConnected) activeCitation.focus();
+        }
+        activeCitation = null;
+      }
+      function resetExploration() {
+        $("explored-list").replaceChildren();
+        $("explored-list").hidden = true;
+        $("exploration-count").textContent = "";
+        $("exploration-empty").hidden = false;
+      }
+      function clearResult() {
+        generation++;
+        if (controller) controller.abort();
+        controller = null;
+        lastRequest = null;
+        resetSource();
+        resetExploration();
+        $("result").classList.add("empty");
+        $("result").replaceChildren(emptyState("↗", "Your answer, with evidence", "Ask a question to get started."));
+        $("result").setAttribute("aria-busy", "false");
+        $("ask-button").disabled = false;
+        $("examples").hidden = false;
+        sourceNames.clear();
+      }
+      $("role").addEventListener("change", clearResult);
+      $("as-of").addEventListener("change", clearResult);
+      $("close-source").addEventListener("click", () => resetSource(true));
+      $("back-answer").addEventListener("click", () => {
+        $("result").scrollIntoView({block: "start"});
+        $("result").focus({preventScroll: true});
+      });
+      document.querySelectorAll(".example").forEach((button) => {
+        button.addEventListener("click", () => {
+          $("question").value = button.dataset.question;
+          $("question").focus();
+        });
+      });
+      $("question").addEventListener("keydown", (event) => {
+        if (event.key === "Enter" && (event.metaKey || event.ctrlKey)) {
+          event.preventDefault();
+          if (!$("ask-button").disabled) $("question-form").requestSubmit();
+        }
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && activeCitation) {
+          event.preventDefault();
+          resetSource(true);
+        }
+      });
+
+      async function requestJSON(url, options) {
+        const response = await fetch(url, options);
+        let data;
+        try { data = await response.json(); }
+        catch { throw new Error("The service returned an unreadable response. Please retry."); }
+        if (!response.ok) {
+          const error = new Error(typeof data.message === "string" ? data.message : response.status === 422 ? "Check your question, role, and date." : "The service could not complete this request.");
+          error.retryable = data.retryable !== false && response.status !== 422;
+          throw error;
+        }
+        return data;
+      }
+      // Only inert Markdown elements reach the document. No raw HTML attributes or images.
+      function markdownFragment(html) {
+        const parsed = new DOMParser().parseFromString(html, "text/html");
+        const allowed = new Set(["P", "H1", "H2", "H3", "H4", "H5", "H6", "UL", "OL", "LI", "STRONG", "EM", "S", "BLOCKQUOTE", "PRE", "CODE", "BR", "HR", "A", "TABLE", "THEAD", "TBODY", "TR", "TH", "TD"]);
+        function copy(node) {
+          if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent);
+          if (node.nodeType !== Node.ELEMENT_NODE || !allowed.has(node.tagName)) return document.createDocumentFragment();
+          const clean = document.createElement(node.tagName.toLowerCase());
+          if (node.tagName === "OL" && /^\d+$/.test(node.getAttribute("start") || "")) clean.start = Number(node.getAttribute("start"));
+          if (node.tagName === "A") {
+            try {
+              const url = new URL(node.getAttribute("href"), window.location.href);
+              if (["https:", "http:"].includes(url.protocol)) {
+                clean.href = url.href;
+                clean.target = "_blank";
+                clean.rel = "noopener noreferrer";
+              }
+            } catch {}
+          }
+          for (const child of node.childNodes) clean.append(copy(child));
+          return clean;
+        }
+        const fragment = document.createDocumentFragment();
+        for (const child of parsed.body.childNodes) fragment.append(copy(child));
+        return fragment;
+      }
+      function normMap(text) {
+        const chars = [], map = [];
+        let offset = 0;
+        for (const original of text) {
+          const normalized = original.normalize("NFKC").replace(/\u00ad/g, "").replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, "-").toLowerCase().replace(/ß/g, "ss").replace(/ς/g, "σ");
+          for (let i = 0; i < normalized.length; i++) {
+            let char = normalized[i];
+            if (/\s/.test(char)) {
+              char = " ";
+              if (chars[chars.length - 1] === " ") continue;
+            }
+            chars.push(char);
+            map.push([offset, offset + original.length]);
+          }
+          offset += original.length;
+        }
+        return {text: chars.join(""), map};
+      }
+      function textIndex(root, section) {
+        let range = null;
+        if (section) {
+          const headings = [...root.querySelectorAll("h2")];
+          const index = headings.findIndex((heading) => normMap(heading.textContent).text.trim() === normMap(section).text.trim());
+          if (index >= 0) {
+            range = document.createRange();
+            range.setStartAfter(headings[index]);
+            if (headings[index + 1]) range.setEndBefore(headings[index + 1]);
+            else range.setEnd(root, root.childNodes.length);
+          }
+        }
+        const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+        const nodes = [];
+        let text = "", lastBlock = null, node;
+        while ((node = walker.nextNode())) {
+          if (range && !range.intersectsNode(node)) continue;
+          const block = node.parentElement?.closest("p,li,h1,h2,h3,h4,h5,h6,pre,td,th,blockquote");
+          if (lastBlock && block !== lastBlock) text += "\n";
+          nodes.push({node, start: text.length, end: text.length + node.textContent.length});
+          text += node.textContent;
+          lastBlock = block;
+        }
+        return {text, nodes};
+      }
+      function highlightQuote(root, citation, quoteHTML) {
+        const indexed = textIndex(root, citation.section);
+        const normalized = normMap(indexed.text);
+        const renderedQuote = markdownFragment(quoteHTML);
+        const quote = normMap(textIndex(renderedQuote).text).text.trim();
+        const match = quote ? normalized.text.indexOf(quote) : -1;
+        if (match < 0) return false;
+        const start = normalized.map[match][0];
+        const end = normalized.map[match + quote.length - 1][1];
+        for (const entry of indexed.nodes) {
+          const left = Math.max(start, entry.start), right = Math.min(end, entry.end);
+          if (left >= right) continue;
+          const target = entry.node.splitText(left - entry.start);
+          target.splitText(right - left);
+          const mark = element("mark", target.textContent);
+          target.replaceWith(mark);
+        }
+        return Boolean(root.querySelector("mark"));
+      }
+      function jumpToQuote() {
+        const mark = $("source-content").querySelector("mark");
+        if (!mark) return;
+        const box = $("source-content");
+        box.scrollTop += mark.getBoundingClientRect().top - box.getBoundingClientRect().top - 70;
+      }
+      $("jump-quote").addEventListener("click", jumpToQuote);
+
+      async function openSource(citation, context, button, userInitiated = true) {
+        const token = ++sourceGeneration;
+        if (sourceController) sourceController.abort();
+        sourceController = new AbortController();
+        if (activeCitation) activeCitation.setAttribute("aria-pressed", "false");
+        activeCitation = button;
+        button.setAttribute("aria-pressed", "true");
+        $("close-source").hidden = false;
+        $("source-title").textContent = sourceNames.get(citation.doc_id) || citation.doc_id;
+        $("source-meta").textContent = "Loading…";
+        $("reader-toolbar").hidden = true;
+        $("original-link").hidden = true;
+        $("jump-quote").disabled = true;
+        $("source-content").classList.remove("empty");
+        $("source-content").replaceChildren(element("p", "Opening document…", "loading"));
+        if (userInitiated) {
+          $("source-title").focus({preventScroll: true});
+          if (window.matchMedia("(max-width: 760px)").matches) $("source-panel").scrollIntoView({block: "start"});
+        }
+        try {
+          const params = new URLSearchParams({role: context.role, as_of: context.as_of});
+          if (citation.quote) params.set("quote", citation.quote);
+          const doc = await requestJSON("/doc/" + encodeURIComponent(citation.doc_id) + "?" + params, {signal: sourceController.signal});
+          if (token !== sourceGeneration) return;
+          if (typeof doc.html !== "string") throw new Error("The document reader is unavailable. Please try again.");
+          $("source-title").textContent = doc.meta.title;
+          $("source-meta").textContent = "Version " + doc.meta.version + (doc.meta.effective_from ? " · Effective " + doc.meta.effective_from : "") + (doc.meta.effective_to ? " to " + doc.meta.effective_to : "");
+          $("reader-toolbar").hidden = false;
+          try {
+            const original = new URL(doc.meta.source_url);
+            if (["https:", "http:"].includes(original.protocol)) {
+              $("original-link").href = original.href;
+              $("original-link").hidden = false;
+            }
+          } catch {}
+          const content = $("source-content");
+          content.replaceChildren();
+          if (doc.superseded_notice) content.append(element("p", doc.superseded_notice, "callout version"));
+          const article = element("article", undefined, "document");
+          article.append(markdownFragment(doc.html));
+          content.append(article);
+          if (citation.quote) {
+            const highlighted = typeof doc.quote_html === "string" && highlightQuote(article, citation, doc.quote_html);
+            $("jump-quote").disabled = !highlighted;
+            if (!highlighted) content.prepend(element("p", "The quote could not be highlighted in this document.", "small"));
+          }
+          content.scrollTop = 0;
+          requestAnimationFrame(() => { if (token === sourceGeneration) jumpToQuote(); });
+        } catch (error) {
+          if (error.name === "AbortError" || token !== sourceGeneration) return;
+          $("source-meta").textContent = "";
+          $("source-content").replaceChildren(element("p", error.message, "error-message"));
+          if (error.retryable !== false) {
+            const retry = element("button", "Retry document", "secondary");
+            retry.type = "button";
+            retry.addEventListener("click", () => openSource(citation, context, button));
+            $("source-content").append(retry);
+          }
+        }
+      }
+      function showExploration(traversal, context, citations) {
+        resetExploration();
+        const steps = traversal.filter((step) => !step.path.endsWith("/index.md"));
+        if (!steps.length) return;
+        $("exploration-empty").hidden = true;
+        $("explored-list").hidden = false;
+        $("exploration-count").textContent = steps.length + " visited";
+        const cited = new Set(citations.map((citation) => citation.doc_id));
+        for (const [index, step] of steps.entries()) {
+          const match = step.path.match(/^\/docs\/([^/]+)\/v\d+\.md$/);
+          const item = element("li");
+          const chip = element(match ? "button" : "span", undefined, "explored-item");
+          chip.title = step.title;
+          chip.append(element("span", String(index + 1), "explored-type"), element("span", step.title, "explored-label"));
+          if (match) {
+            chip.type = "button";
+            chip.setAttribute("aria-pressed", "false");
+            chip.setAttribute("aria-controls", "source-panel");
+            chip.setAttribute("aria-label", "Open explored document: " + step.title);
+            chip.append(element("span", cited.has(match[1]) ? "Cited" : "Read", "explored-type"));
+            chip.addEventListener("click", () => openSource({doc_id: match[1]}, context, chip));
+          } else {
+            chip.append(element("span", "Topic", "explored-type"));
+          }
+          item.append(chip);
+          $("explored-list").append(item);
+        }
+      }
+      function showResponse(payload, context) {
+        const response = payload.response, result = $("result");
+        const traversal = payload.traversal || [];
+        sourceNames = new Map();
+        for (const step of traversal) {
+          const match = step.path.match(/^\/docs\/([^/]+)\/v\d+\.md$/);
+          if (match) sourceNames.set(match[1], step.title);
+        }
+        const titleFor = (id) => sourceNames.get(id) || id;
+        result.replaceChildren();
+        const answered = response.status === "answered";
+        const restricted = response.refusal_reason === "not_permitted";
+        const heading = element("div", undefined, "result-header");
+        const title = element("div");
+        title.append(element("h2", answered ? "Your answer" : restricted ? "Access restricted" : "Not in the book"));
+        title.append(element("span", context.role.charAt(0).toUpperCase() + context.role.slice(1) + " · " + context.as_of, "result-context"));
+        heading.append(title, element("span", answered ? "With evidence" : restricted ? "Restricted" : "No answer", "badge" + (answered ? "" : restricted ? " restricted" : " absent")));
+        result.append(heading, element("div", answered ? response.answer : response.refusal_message, "answer-text"));
+        if (response.governing) {
+          const box = element("div", undefined, "callout");
+          box.append(element("strong", "Which rule applies"), element("p", titleFor(response.governing.doc_id)), element("div", response.governing.reason));
+          if (response.governing.overridden?.length) box.append(element("p", "Also considered: " + response.governing.overridden.map(titleFor).join("; "), "small"));
+          result.append(box);
+        }
+        if (response.superseded_notice) result.append(element("div", response.superseded_notice, "callout version"));
+        const citations = response.citations || [];
+        if (citations.length) {
+          const heading = element("div", "Citations · " + citations.length, "evidence-heading");
+          heading.append(element("span", "Select to read the source ↗"));
+          result.append(heading);
+        }
+        let firstCitation = null;
+        for (const [index, citation] of citations.entries()) {
+          const button = element("button", undefined, "citation");
+          if (!firstCitation) firstCitation = button;
+          button.type = "button";
+          button.setAttribute("aria-pressed", "false");
+          button.setAttribute("aria-controls", "source-panel");
+          button.setAttribute("aria-label", "Read citation " + (index + 1) + ": " + titleFor(citation.doc_id) + ", " + citation.section);
+          const copy = element("span", undefined, "citation-copy");
+          copy.append(element("strong", titleFor(citation.doc_id)), element("small", citation.section), element("q", citation.quote));
+          button.append(element("span", String(index + 1), "citation-number"), copy, element("span", "↗", "citation-arrow"));
+          button.addEventListener("click", () => openSource(citation, context, button));
+          result.append(button);
+        }
+        showExploration(traversal, context, citations);
+        result.scrollTop = 0;
+        if (answered && firstCitation) openSource(citations[0], context, firstCitation, false);
+      }
+      async function submit(context) {
+        const current = ++generation;
+        if (controller) controller.abort();
+        controller = new AbortController();
+        lastRequest = context;
+        resetSource();
+        resetExploration();
+        const result = $("result");
+        result.classList.remove("empty");
+        $("examples").hidden = true;
+        result.setAttribute("aria-busy", "true");
+        const loading = element("p", undefined, "loading");
+        loading.append(element("span", "", "spinner"), document.createTextNode("Checking the sources…"));
+        result.replaceChildren(loading);
+        $("ask-button").disabled = true;
+        try {
+          const payload = await requestJSON("/ask?trace=true", {
+            method: "POST", headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(context), signal: controller.signal
+          });
+          if (current !== generation) return;
+          showResponse(payload, context);
+        } catch (error) {
+          if (error.name === "AbortError" || current !== generation) return;
+          const heading = element("div", undefined, "result-header");
+          heading.append(element("h2", "Couldn’t complete your request"), element("span", "Service error", "badge error"));
+          result.replaceChildren(heading, element("p", error.message));
+          if (error.retryable !== false) {
+            const retry = element("button", "Try again", "secondary");
+            retry.type = "button";
+            retry.addEventListener("click", () => submit({...lastRequest, id: requestId()}));
+            result.append(retry);
+          }
+        } finally {
+          if (current === generation) {
+            result.setAttribute("aria-busy", "false");
+            $("ask-button").disabled = false;
+          }
+        }
+      }
+      $("question-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        if ($("ask-button").disabled) return;
+        const question = $("question").value.trim();
+        if (!question) { $("question").focus(); return; }
+        submit({id: requestId(), question, role: $("role").value, as_of: $("as-of").value});
+      });
+    </script>
+  </body>
+</html>

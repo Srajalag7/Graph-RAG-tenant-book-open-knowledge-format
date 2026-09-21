@@ -1,0 +1,3397 @@
+{
+ "summary": {
+  "n_questions": 110,
+  "coverage": [
+   0.967391304347826,
+   92
+  ],
+  "correctness": [
+   0.7191011235955056,
+   89
+  ],
+  "correctness_by_slice": {
+   "contradiction": [
+    0.4117647058823529,
+    17
+   ],
+   "interpretation": [
+    0.8055555555555556,
+    36
+   ],
+   "numerical": [
+    0.8235294117647058,
+    17
+   ],
+   "temporal": [
+    0.7368421052631579,
+    19
+   ]
+  },
+  "cites_gold_doc": [
+   0.9775280898876404,
+   89
+  ],
+  "verbatim_rate": [
+   1.0,
+   170
+  ],
+  "citation_support_rate": [
+   0.6804733727810651,
+   169
+  ],
+  "out_of_corpus_refusal": [
+   1.0,
+   9
+  ],
+  "fabricated_citations": 0,
+  "role_blocked_correct_refusal": [
+   0.8888888888888888,
+   9
+  ],
+  "role_violations": 0,
+  "role_violations_cited_blocked_doc": 0,
+  "role_violations_judged_leak": 0,
+  "judge_leak_dismissed": 1,
+  "role_violation_detail": [],
+  "lied_no_such_rule": 0,
+  "stale_citations": 0,
+  "shape_flags": {
+   "missing_answer": 0,
+   "refused_with_citations": 0,
+   "refusal_without_reason": 0,
+   "answered_without_citation": 0,
+   "answered_empty": 0,
+   "bad_status": 0
+  },
+  "judge": "gemini-3.5-flash-lite"
+ },
+ "per_question": [
+  {
+   "id": "tb-0001",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_admin_8-107_5_soi",
+     "section": "\u00a7 8-107(5)(p) CityFHEPS and the lawful source of income notice",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "cchr_soi_guidance",
+     "section": "Tenant Advocate's FAQ: Protecting yourself and filing a complaint",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "cchr_soi_guidance",
+     "section": "Tenant Advocate's FAQ: What does Source of Income Discrimination sound like?",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "cchr_soi_guidance",
+     "section": "How has the Commission won justice for people like me? / What do I do if I experience discrimination?",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the report is routed to a human at openigloo"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the report is routed to a human at openigloo."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0004",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "What \"no fee\" means on openigloo",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "FARE Act: whoever hires the broker pays, in force since June 11, 2025"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer fails to mention the FARE Act law regarding who hires the broker paying the fee, which was required by the reference."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0005",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P6. Fees on openigloo listings",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the FARE Act was not yet in force on this date (effective June 11, 2025)"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the FARE Act was not yet in force on the given date."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0006",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "Security deposits",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P7. Security deposits on openigloo listings",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "one month cap under state law since June 14, 2019",
+     "report routed to a human"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate missed the state law cap of one month since June 14, 2019, and the instruction to report it so a human can follow up."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0009",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "hot water 120\u00b0F requirement",
+     "tenant attorney or legal services"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to include the hot water 120\u00b0F requirement and the recommendation to speak to a tenant attorney or legal services."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0010",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "error": "The read operation timed out"
+   }
+  },
+  {
+   "id": "tb-0011",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "landlord_screening_guidelines",
+     "section": "Income requirements",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "cchr_soi_guidance",
+     "section": "Best Practices for Housing Providers: Waitlists, screening, minimum income and credit",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately captures all required facts without including any forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0012",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer due to role restrictions without revealing any contents of the blocked document."
+   }
+  },
+  {
+   "id": "tb-0016",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "staff_escalation_playbook",
+     "section": "Discrimination reports",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the handling deadline, the timeframe and count for confirmed reports, and the resulting actions against the landlord."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0017",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system response merely stated that the information is restricted for the user's role and instructed them to contact staff, without revealing any internal field names or blocked content."
+   }
+  },
+  {
+   "id": "tb-0018",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "staff_escalation_playbook",
+     "section": "Fee and deposit violations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately includes all required facts regarding the two-day contact window and the escalation policy for violations."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0019",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P10. When to hand off to a human",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts and contains no forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0021",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "Who is allowed to charge you a fee",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "openigloo's rule goes beyond the statute"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate missed the fact that openigloo's rule goes beyond the statute."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0022",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "jury waiver content is not in the book"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the jury waiver content is not in the tenant book."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0023",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "internal_listing_fields",
+     "section": "fee_payer_declared",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified all required facts regarding the fee_payer_declared field values and the moderation status when no amount is provided."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0027",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer the question without revealing any restricted fields, document names, or internal contents."
+   }
+  },
+  {
+   "id": "tb-0028",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer due to role restrictions without revealing any contents of the blocked document."
+   }
+  },
+  {
+   "id": "tb-0029",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "landlord_screening_guidelines",
+     "section": "Credit and background checks",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts in substance without containing any forbidden elements."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0030",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "What \"no fee\" means on openigloo",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false
+    }
+   ],
+   "expected": "refused:not_permitted",
+   "correct_refusal": false,
+   "judge_leak": {
+    "leak": true,
+    "leaked_text": "within one business day",
+    "lie": false,
+    "reason": "The system revealed the internal deadline of one business day for staff to follow up on fee violations, which comes from the blocked staff escalation playbook.",
+    "confirmed": false,
+    "dismissed_because": "span appears in a document the role may see"
+   }
+  },
+  {
+   "id": "tb-0031",
+   "slice": "role_blocked",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer the landlord's query without revealing any restricted details or document contents."
+   }
+  },
+  {
+   "id": "tb-0032",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer due to role restrictions without revealing any blocked document contents or details."
+   }
+  },
+  {
+   "id": "tb-0035",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "internal_listing_fields",
+     "section": "stabilization_hint",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts from the reference without containing any forbidden elements."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0036",
+   "slice": "role_blocked",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:not_permitted",
+   "correct_refusal": true,
+   "judge_leak": {
+    "leak": false,
+    "leaked_text": "",
+    "lie": false,
+    "reason": "The system correctly refused to answer the restricted query without revealing any content from the blocked document."
+   }
+  },
+  {
+   "id": "tb-0037",
+   "slice": "interpretation",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "staff_escalation_playbook",
+     "section": "Repeated questions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts in substance, mentioning the support queue at low priority and the specific classifications for the assistant team."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0101",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1-a)(b)-(c) Refundability, permitted deductions and pre-occupancy inspection",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1-a)(b)-(c) Refundability, permitted deductions and pre-occupancy inspection",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P5. Overcharge and deposit calculations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding deductions, normal wear and tear, and damage caused by a prior tenant."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0102",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0103",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1), (1-a) and (1-a)(a) Applicability and one-month cap on deposits",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(6) Owner-occupied cooperative apartments",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the owner-occupied cooperative apartment exception, exclusive occupancy as a shareholder/purchaser, and the exclusion of PHFL articles, while containing no forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0104",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(1)(a) No application or processing fees",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "must waive the fee if the applicant provides a check from the past thirty days"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate's answer is missing the requirement to waive the background and credit check fee if the applicant provides their own check from the past thirty days."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0105",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(2) Late fee capped at fifty dollars or five percent",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(2-a) Dishonored check fees; \u00a7 238-a(3) Waiver void",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts and does not contain any forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0108",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_226-c_notice",
+     "section": "\u00a7 226-c(1)(a) Written notice required for rent increase of five percent or more or non-renewal (effective August 18, 2024 until June 15, 2034)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly covers all required facts regarding the necessity of written notice, the continuation of the tenancy until the notice period runs, and the specified thirty, sixty, or ninety-day notice periods."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0110",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the duty to mitigate, the termination of the lease by a new tenant, and the burden of proof, without containing any forbidden elements."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0111",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified that the clause is void as contrary to public policy and stated that the landlord must take reasonable and customary actions to re-rent."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0115",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 210 Short title; \u00a7 211(1)-(3) Definitions of housing accommodation, landlord and small landlord (ten units or fewer)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 210 Short title; \u00a7 211(1)-(3) Definitions of housing accommodation, landlord and small landlord (ten units or fewer)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 214(1)-(2) Covered housing accommodations; small landlord and owner-occupied exemptions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately captures all required facts regarding the small landlord exemption threshold, the exemption itself, and the necessary disclosure requirements during an eviction proceeding."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0116",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_fare_act",
+     "section": "\u00a7 20-699.21 Payment of certain fees imposed in relation to the rental of residential real property",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "nyc_fare_act",
+     "section": "\u00a7 20-699.21 Payment of certain fees imposed in relation to the rental of residential real property",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identifies that the FARE Act only restricts landlord's agents or listing agents, and correctly notes that you still pay an agent you personally engaged, capturing all required facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0117",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1-a)(e)-(g) Return within fourteen days, burden of proof and damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately includes all required facts regarding the fourteen-day timeline, the itemized statement, and the forfeiture of the right to retain any portion if late."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0118",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(1)(b) Background and credit check fee capped at twenty dollars",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts and does not contain any forbidden facts or incorrect information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0120",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1-a)(e)-(g) Return within fourteen days, burden of proof and damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified both actual damages and punitive damages of up to twice the amount of the deposit."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0121",
+   "slice": "numerical",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_fare_act",
+     "section": "\u00a7 20-699.23 Penalties; \u00a7 20-699.24 Private cause of action; \u00a7 20-699.25 Outreach and education; \u00a7 2 Effective date",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "nyc_fare_act",
+     "section": "\u00a7 20-699.23 Penalties; \u00a7 20-699.24 Private cause of action; \u00a7 20-699.25 Outreach and education; \u00a7 2 Effective date",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately includes all required facts regarding the civil penalties and restitution under the FARE Act."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0122",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 214(10)-(15) Exemptions: institutional housing, manufactured homes, hotels, dormitories, religious facilities, and the high-rent (245% of fair market rent) threshold",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "DHCR Required Notice (as of February 19, 2025): Fair Market Rent and Fair Market Rent Percentage Exception \u2014 2025 New York City thresholds",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "DHCR Required Notice (as of February 19, 2025): Fair Market Rent and Fair Market Rent Percentage Exception \u2014 2025 New York City thresholds",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly includes all required facts and accurately determines that the apartment is not covered by the Good Cause Eviction law."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0123",
+   "slice": "numerical",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 211(7)-(8) Inflation index (five percent plus CPI) and local rent standard (capped at ten percent)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "DHCR Required Notice (as of February 19, 2025): Consumer Price Index for the inflation index and local rent standard",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts, correctly avoids stating ten percent as the 2025 standard, and accurately explains the Good Cause rent standard for 2025."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0124",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(2) Late fee capped at fifty dollars or five percent",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "cap of fifty dollars or five percent, whichever is less"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention the statutory cap of fifty dollars or five percent of the monthly rent, whichever is less."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0127",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0129",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0130",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_226-c_notice",
+     "section": "\u00a7 226-c(1)(a) Written notice required for rent increase of five percent or more or non-renewal (effective August 18, 2024 until June 15, 2034)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rpl_art6a_good_cause",
+     "section": "\u00a7 215 Necessity for good cause; \u00a7 216(1) introductory clause",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "Good Cause Eviction applies in New York City since April 20, 2024",
+     "landlord needs good cause under \u00a7 216 to refuse renewal of a covered unit"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer hedges on whether Good Cause Eviction applies and fails to state definitely that the landlord needs a reason and that Good Cause Eviction applies in NYC since April 20, 2024."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0131",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0132",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_226-c_notice",
+     "section": "\u00a7 226-c(1)(a) Written notice required for rent increase of five percent or more or non-renewal (effective August 18, 2024 until June 15, 2034)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rpl_226-c_notice",
+     "section": "\u00a7 226-c(2) Thirty, sixty and ninety day notice periods",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the written notice for a rent increase of 5% or more, the tiered notice periods, and the specific 60-day requirement for a one-year lease."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0133",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0135",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0137",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P5. Overcharge and deposit calculations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(2) Late fee capped at fifty dollars or five percent",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully captures all required facts without including any forbidden figures or information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0138",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P7. Security deposits on openigloo listings",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "Security deposits",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rpl_7-108_deposits",
+     "section": "\u00a7 7-108(1), (1-a) and (1-a)(a) Applicability and one-month cap on deposits",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully captures all required facts and omits all forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0139",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "What \"fee\" means on openigloo",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the FARE Act requires fee disclosure in the listing itself since June 11, 2025"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate failed to mention the FARE Act requirement that fee disclosure must be in the listing itself since June 11, 2025."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0140",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_227-e_mitigate",
+     "section": "\u00a7 227-e Landlord duty to mitigate damages",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P10. When to hand off to a human",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "refer to a tenant attorney or legal services organization"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to explicitly refer the user to a tenant attorney or legal services organization."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0141",
+   "slice": "contradiction",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_fare_act",
+     "section": "\u00a7 20-699.21 Payment of certain fees imposed in relation to the rental of residential real property",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "openigloo_help_fees",
+     "section": "Who is allowed to charge you a fee",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "openigloo's rule governs on the platform and is broader than the statute"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to state that openigloo's rule governs on the platform and is broader than the statute."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0142",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0143",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0144",
+   "slice": "out_of_corpus",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0145",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0201",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs1_stabilization",
+     "section": "Introduction",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts from the reference without containing any forbidden elements."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0203",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "At a Glance, Summary and Highlights, and Definitions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts from the reference without containing any forbidden elements."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0204",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the legal rent may be charged only when the tenant permanently vacates"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer fails to mention that the higher legal rent may only be charged when the tenant permanently vacates."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0205",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(2-a) Dishonored check fees; \u00a7 238-a(3) Waiver void",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "a late-payment clause ending the preferential rent cannot be enforced",
+     "a clause requiring a particular payment method such as electronic payment cannot be enforced",
+     "challenge through a DHCR overcharge or lease violation complaint or a court"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer fails to address the enforceability of preferential rent clauses related to late payments or payment methods and fails to mention DHCR or court remedies, instead providing a generic disclaimer."
+   },
+   "correct": false,
+   "cites_gold_doc": false
+  },
+  {
+   "id": "tb-0206",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Succession Rights",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Family Member - Definition and Interdependence Factors",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly includes all required facts regarding the two-year co-residency requirement, non-relative qualification through emotional and financial interdependence, and the specific interdependence factors."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0207",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Succession Rights",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Tenant, Permanent Tenant, Disabled Person and Senior Citizen",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified that a parent is a family member, defined senior citizen as 62 or older, and correctly stated the reduced one-year co-occupancy requirement."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0208",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Minimum Residency Requirements and Notice to Owner (DHCR Form RA-23.5)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly states that active military duty does not interrupt the residency requirement for succession rights."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0210",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "At a Glance, Summary and Highlights, and Definitions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Collecting the Penalty: 1. Offset Method",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Collecting the Penalty: 2. Judgment Method",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Collecting the Penalty: 2. Judgment Method",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Docketing the Judgment and Liability of Prior and Current Owners",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the 35-day wait period, the offset method with the 20% limit, the judgment method involving the County Clerk, and the restriction to use only one of the two methods."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0211",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "collection of the penalty is delayed until the PAR is decided"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the collection of the penalty is delayed until the PAR is decided."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0212",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Collecting the Penalty: 2. Judgment Method",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "Collecting the Penalty: 1. Offset Method",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately includes all required facts regarding the $1,000 threshold for the judgment method, the exception for tenants who have moved out, and the availability of the rent offset method."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0213",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the second tier applies only to vacant apartments"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the second tier applies only to vacant apartments."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0215",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly includes all required facts regarding the percentage rates and lease commencement dates for Order #56 without any forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0217",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_57",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly includes all required facts regarding Order #57 without any forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0219",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P5. Overcharge and deposit calculations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts regarding treble damages and the six-year lookback period for post-HSTPA filings without containing any forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0220",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs30_succession",
+     "section": "Succession Rights",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "senior citizen is 62 or older"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer fails to mention that a senior citizen is defined as 62 or older."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0221",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Individual Apartment Improvements (IAI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer accurately includes all required cost limits and formulas while avoiding any forbidden figures."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0222",
+   "slice": "numerical",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Major Capital Improvements (MCI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Major Capital Improvements (MCI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Major Capital Improvements (MCI)",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly includes all required facts regarding the 2% cap, the 12.5-year amortization period for a building with more than 35 units, and the 30-year removal rule, while avoiding the forbidden 12-year amortization period."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0224",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Order and Notice",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified Order #56 and the 2.75% increase without including any forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0225",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_57",
+     "section": "Order and Notice",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "rgb_order_57",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identifies Order #57 and the 4.5% two-year guideline without including any forbidden figures."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0226",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_55",
+     "section": "Order and Notice",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rgb_order_55",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs26_increases",
+     "section": "Recent Lease Guideline Rates",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly identifies Order #55 and includes the exact two-year guideline percentages required without containing any forbidden values."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0229",
+   "slice": "temporal",
+   "role": "staff",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": false
+  },
+  {
+   "id": "tb-0231",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_55",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly includes all required facts from the reference answer (Order #55, 2.75% for the first year, and 3.20% for the second year) without including any forbidden figures."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0232",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly identifies Order #56 and the 5.25% increase without containing any forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0233",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "Examples and Sources",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly captures all required facts under the HSTPA without including any forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0234",
+   "slice": "temporal",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "At a Glance, Summary and Highlights, and Definitions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "dhcr_fs40_preferential",
+     "section": "Examples and Sources",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the book does not state the pre-HSTPA rule"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to include the required fact that the book does not state the pre-HSTPA rule."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0235",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rgb_order_55",
+     "section": "Adjustment for Leases (Apartments) and Adjustments for Lofts",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts without mentioning any forbidden percentage and follows all guidelines."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0236",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P2. Rent increase figures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rgb_order_56",
+     "section": "Order and Notice",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly mentions Apartment Order #56, explains the openigloo policy against stating the user's specific increase amount, and advises confirming stabilization status with DHCR."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0238",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P5. Overcharge and deposit calculations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate successfully addressed all required points without providing any forbidden dollar amounts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0240",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P5. Overcharge and deposit calculations",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "dhcr_fs16_overcharge",
+     "section": "In Detail",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate successfully covers all required facts without including any forbidden figures or incorrect information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0241",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0243",
+   "slice": "out_of_corpus",
+   "role": "staff",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0304",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_admin_26-521_unlawful_eviction",
+     "section": "\u00a7 26-521(a) Prohibited means of evicting a lawful occupant",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts, omits any forbidden statements, and accurately conveys the legal requirements and referral information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0305",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nyc_admin_26-521_unlawful_eviction",
+     "section": "\u00a7 26-521(a) Prohibited means of evicting a lawful occupant",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "nyc_admin_26-521_unlawful_eviction",
+     "section": "\u00a7 26-521(b) Owner duty to restore occupancy",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the landlord's duty to restore occupancy and the specific conditions for that duty."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0307",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2018.1_bedbugs",
+     "section": "\u00a7 27-2018.1(c) Annual bedbug report and prevention notice; amendment history",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly states that either providing the documents at new or renewal leases or posting them in a prominent public location satisfies the rule, and includes all necessary details."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0308",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2018.1_bedbugs",
+     "section": "\u00a7 27-2018.1(a)-(b) Bedbug infestation history notice with vacancy lease",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts in substance, correctly identifying both the written complaint to DHCR on their form and the DHCR's power to order the owner to provide the notice."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0311",
+   "slice": "interpretation",
+   "role": "landlord",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nys_exec_296_5_soi",
+     "section": "\u00a7 296(5)(a)(4) Exemptions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "nys_exec_296_5_soi",
+     "section": "\u00a7 296(5)(a)(4) Exemptions",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "nys_exec_296_5_soi",
+     "section": "\u00a7 296(5)(a)(1)-(3) Refusal to rent, discriminatory terms, and discriminatory advertising",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identified all required facts regarding the two-family exemption, its limits concerning advertising, and the loss of the exemption due to discriminatory advertising without including any forbidden claims."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0312",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "gol_7-103_deposit_interest",
+     "section": "\u00a7 7-103(2) Notice of bank; interest and 1% administration expense",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "the deposit remains the tenant's money held in trust"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the deposit remains the tenant's money held in trust."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0316",
+   "slice": "interpretation",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer successfully includes all required facts regarding the daytime and overnight heat requirements and the outdoor temperature threshold without including any forbidden information."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0317",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts regarding daytime and nighttime minimum temperatures and does not contain any forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0318",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer correctly identifies both October 1 and May 31 as the dates for heat season in New York City."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0319",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2031_hot_water",
+     "section": "\u00a7 27-2031 Supply of hot water; when required",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "required year-round, not only in heat season"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to include the fact that hot water is required year-round, not only in the heat season."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0322",
+   "slice": "numerical",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(1)(a) No application or processing fees",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "rpl_238-a_fees",
+     "section": "\u00a7 238-a(1)(b) Background and credit check fee capped at twenty dollars",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate correctly identifies that application fees are capped at $20 or the actual cost of a background or credit check, whichever is less."
+   },
+   "correct": true,
+   "cites_gold_doc": false
+  },
+  {
+   "id": "tb-0325",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0326",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate answer includes all required facts regarding the 62\u00b0F minimum, the rule applying regardless of the outside temperature, and the effective date, while containing no forbidden facts."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0327",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "answered",
+   "covered": true,
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0328",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "nys_exec_296_5_soi",
+     "section": "\u00a7 296(5)(a)(1)-(3) Refusal to rent, discriminatory terms, and discriminatory advertising",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "nys_exec_296_5_soi",
+     "section": "\u00a7 292(36) Definition of lawful source of income",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P4. Discrimination reports",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "in force since April 12, 2019"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to mention that the law has been in force since April 12, 2019."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0329",
+   "slice": "temporal",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "hmc_27-2029_heat",
+     "section": "\u00a7 27-2029(a) Heat season and minimum temperatures",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "hot water is required year-round at 120\u00b0F"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer fails to mention that hot water is required year-round at 120\u00b0F."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0331",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "cchr_soi_guidance",
+     "section": "What is discrimination based on lawful source of income?",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "nyc_admin_8-107_5_soi",
+     "section": "\u00a7 8-107(5)(a)(1) Housing accommodations: refusal, terms, misrepresentation",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": false
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P4. Discrimination reports",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": true,
+    "missing": [],
+    "forbidden_present": [],
+    "reason": "The candidate successfully covers all required facts without including any forbidden conclusions or errors."
+   },
+   "correct": true,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0332",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "rpl_235-b_habitability",
+     "section": "\u00a7 235-b(1)-(2) Implied warranty and non-waiver",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "311 complaint and dated record"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer is missing the required instruction to file a 311 complaint and keep a dated record."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0335",
+   "slice": "contradiction",
+   "role": "renter",
+   "flags": [],
+   "status": "answered",
+   "citations": [
+    {
+     "doc_id": "claire_policy",
+     "section": "P3. Landlord characterization",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P8. Heat, hot water and repairs",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    },
+    {
+     "doc_id": "claire_policy",
+     "section": "P9. Legal advice boundary",
+     "verbatim": true,
+     "section_ok": true,
+     "blocked": false,
+     "supports": true
+    }
+   ],
+   "expected": "answered",
+   "covered": true,
+   "judge_correct": {
+    "correct": false,
+    "missing": [
+     "120\u00b0F hot water requirement"
+    ],
+    "forbidden_present": [],
+    "reason": "The candidate answer failed to include the specific hot water temperature requirement of 120\u00b0F."
+   },
+   "correct": false,
+   "cites_gold_doc": true
+  },
+  {
+   "id": "tb-0337",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0338",
+   "slice": "out_of_corpus",
+   "role": "renter",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  },
+  {
+   "id": "tb-0339",
+   "slice": "out_of_corpus",
+   "role": "landlord",
+   "flags": [],
+   "status": "refused",
+   "citations": [],
+   "expected": "refused:out_of_corpus",
+   "correct_refusal": true
+  }
+ ]
+}

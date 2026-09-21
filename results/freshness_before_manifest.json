@@ -1,0 +1,155 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "per_question": [
+    {
+      "id": "sim-01",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 4,
+      "api_attempts": 4,
+      "input_tokens": 28788,
+      "output_tokens": 169,
+      "latency_s": 9.491,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-02",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 4,
+      "api_attempts": 4,
+      "input_tokens": 35155,
+      "output_tokens": 375,
+      "latency_s": 9.097,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-03",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 6,
+      "api_attempts": 6,
+      "input_tokens": 53744,
+      "output_tokens": 400,
+      "latency_s": 15.988,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-04",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 5,
+      "api_attempts": 5,
+      "input_tokens": 37248,
+      "output_tokens": 265,
+      "latency_s": 11.569,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-05",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 5,
+      "api_attempts": 5,
+      "input_tokens": 35364,
+      "output_tokens": 575,
+      "latency_s": 12.529,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-06",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 5,
+      "api_attempts": 5,
+      "input_tokens": 28382,
+      "output_tokens": 294,
+      "latency_s": 11.531,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-07",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 6,
+      "api_attempts": 8,
+      "input_tokens": 50681,
+      "output_tokens": 150,
+      "latency_s": 63.79,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    },
+    {
+      "id": "sim-08",
+      "model": "gemini-3.5-flash-lite",
+      "model_calls": 5,
+      "api_attempts": 5,
+      "input_tokens": 28024,
+      "output_tokens": 131,
+      "latency_s": 10.962,
+      "query_attempts": 1,
+      "retry_errors": [],
+      "usage_complete": true
+    }
+  ],
+  "errors": [],
+  "pending_ids": [],
+  "complete": true,
+  "usage_complete": true,
+  "requests": {
+    "sim-01": {
+      "id": "sim-01",
+      "question": "What one-year and two-year rent-stabilized renewal adjustments does the order specify for leases starting October 1, 2026?",
+      "role": "staff",
+      "as_of": "2026-10-01"
+    },
+    "sim-02": {
+      "id": "sim-02",
+      "question": "What one-year and two-year rent-stabilized renewal adjustments does the order specify for leases starting September 30, 2026?",
+      "role": "staff",
+      "as_of": "2026-09-30"
+    },
+    "sim-03": {
+      "id": "sim-03",
+      "question": "Under the FARE Act, how many years must the landlord retain the signed itemized fee disclosure?",
+      "role": "landlord",
+      "as_of": "2026-10-01"
+    },
+    "sim-04": {
+      "id": "sim-04",
+      "question": "Under the FARE Act, how many years must the landlord retain the signed itemized fee disclosure?",
+      "role": "landlord",
+      "as_of": "2026-09-30"
+    },
+    "sim-05": {
+      "id": "sim-05",
+      "question": "My apartment is confirmed rent stabilized and my one-year renewal starts October 1, 2025. What renewal percentage does the book specify?",
+      "role": "renter",
+      "as_of": "2025-10-01"
+    },
+    "sim-06": {
+      "id": "sim-06",
+      "question": "A broker asked me for a fee on an openigloo listing marked no fee. What should I do?",
+      "role": "renter",
+      "as_of": "2026-09-21"
+    },
+    "sim-07": {
+      "id": "sim-07",
+      "question": "A renter reported me for asking for a fee. How many violations before openigloo removes my listing?",
+      "role": "landlord",
+      "as_of": "2025-09-01"
+    },
+    "sim-08": {
+      "id": "sim-08",
+      "question": "I'm moving across the river to Jersey City. What's the maximum security deposit a landlord in New Jersey can ask for?",
+      "role": "renter",
+      "as_of": "2025-08-01"
+    }
+  }
+}
